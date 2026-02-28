@@ -1,0 +1,183 @@
+- id: berkeley-agentx-2026
+  title: "AgentX AgentBeats Competition"
+  full_name: "Berkeley AgentX AgentBeats Competition — Build Benchmarks & AI Agents"
+  organizer: "Berkeley RDI"
+  url: "https://rdi.berkeley.edu/agentx-agentbeats.html"
+  deadline: "2026-04-15 23:59"
+  timezone: "UTC"
+  start_date: "2026-03-01"
+  end_date: "2026-06-30"
+  prize: "$1M+"
+  categories:
+    - competition
+    - benchmark
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - benchmark
+    - LLM
+  note: "Two-phase: build benchmarks (Phase 1), then create agents (Phase 2)"
+
+- id: microsoft-ai-dev-days-2026
+  title: "AI Dev Days Hackathon"
+  full_name: "Microsoft AI Dev Days Hackathon — Build with Azure, GitHub, and Foundry"
+  organizer: "Microsoft"
+  url: "https://developer.microsoft.com/en-us/reactor/events/26647/"
+  deadline: "2026-03-31 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-03-15"
+  end_date: "2026-03-31"
+  prize: "$10,000 per category + Build 2026 tickets"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "microsoft"
+  tags:
+    - agent
+    - copilot
+    - azure
+  note: "Build apps, agents, or embed security with Azure & GitHub"
+
+- id: nvidia-agent-toolkit-2025
+  title: "Agent Toolkit Hackathon"
+  full_name: "NVIDIA Agent Toolkit Hackathon"
+  organizer: "NVIDIA"
+  url: "https://developer.nvidia.com/agentiq-hackathon"
+  deadline: "2025-05-23 23:59"
+  timezone: "US/Pacific"
+  start_date: "2025-05-12"
+  end_date: "2025-05-23"
+  prize: "RTX 5090 signed by Jensen Huang"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "nvidia"
+  tags:
+    - agent
+    - open-source
+    - toolkit
+  note: "Build agentic AI with NVIDIA Agent Intelligence toolkit"
+
+- id: 100agents-2025
+  title: "100 Agents Hackathon"
+  full_name: "100 Agents — Pushing The Limits of Agentic AI"
+  organizer: "The Peak"
+  url: "https://100agents.devpost.com/"
+  deadline: "2025-06-29 23:59"
+  timezone: "US/Eastern"
+  start_date: "2025-06-14"
+  end_date: "2025-06-29"
+  prize: "Sponsored prizes from Tavily, Appwrite, Mem0"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - open-source
+    - multi-agent
+  note: "Leverage any open-source agentic framework"
+
+- id: berkeley-llm-agents-2025
+  title: "LLM Agents Hackathon"
+  full_name: "Berkeley RDI LLM Agents Hackathon"
+  organizer: "Berkeley RDI"
+  url: "https://rdi.berkeley.edu/llm-agents-hackathon/"
+  deadline: "2025-08-01 23:59"
+  timezone: "US/Pacific"
+  start_date: "2025-07-01"
+  end_date: "2025-08-15"
+  prize: "$32K+ in credits and prizes"
+  categories:
+    - hackathon
+    - competition
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - LLM
+    - benchmark
+    - safety
+  note: "5 tracks: Applications, Benchmarks, Fundamentals, Safety, Multi-Agent"
+
+- id: databricks-ai-agents-2025
+  title: "AI Agents Hackathon"
+  full_name: "Databricks AI Agents Hackathon at Data+AI Summit"
+  organizer: "Databricks"
+  url: "https://www.databricks.com/dataaisummit/session/ai-agents-hackathon"
+  deadline: "2025-06-12 23:59"
+  timezone: "US/Pacific"
+  start_date: "2025-06-12"
+  end_date: "2025-06-12"
+  prize: "$10K / $5K / $2.5K"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "databricks"
+  tags:
+    - agent
+    - data
+    - enterprise
+  note: "In-person at Data+AI Summit, teams of up to 4"
+
+- id: arc-prize-2025
+  title: "ARC Prize 2025"
+  full_name: "ARC Prize — Artificial General Intelligence Benchmark Challenge"
+  organizer: "ARC Prize Foundation"
+  url: "https://arcprize.org/"
+  deadline: "2025-11-01 23:59"
+  timezone: "UTC"
+  start_date: "2025-05-01"
+  end_date: "2025-11-01"
+  prize: "$1,000,000"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - AGI
+    - benchmark
+    - reasoning
+  note: "ARC-AGI benchmark, $600K grand prize + $125K progress prizes"
+
+- id: openserv-hackathon-2025
+  title: "OpenServ AI Agent Hackathon"
+  full_name: "OpenServ AI Agent Hackathon — Web3/DeFAI Agents"
+  organizer: "OpenServ"
+  url: "https://openservai.hackerearth.com/"
+  deadline: "2025-04-30 23:59"
+  timezone: "UTC"
+  start_date: "2025-04-01"
+  end_date: "2025-04-30"
+  prize: "TBD"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "hackerearth"
+  tags:
+    - agent
+    - web3
+    - DeFi
+  note: "Two-phase: concept submission, then development sprint"
+
+- id: lablab-ai-agents-weekly
+  title: "Lablab.ai AI Agent Hackathons"
+  full_name: "Lablab.ai — Recurring AI Agent Hackathons"
+  organizer: "Lablab.ai"
+  url: "https://lablab.ai/event"
+  deadline: "2026-12-31 23:59"
+  timezone: "UTC"
+  start_date: "2025-01-01"
+  end_date: "2026-12-31"
+  prize: "Varies per event"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "lablab"
+  tags:
+    - agent
+    - LLM
+    - recurring
+  note: "New AI hackathons every 2-3 weeks, check site for latest"
