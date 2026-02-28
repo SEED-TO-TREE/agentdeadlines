@@ -1,9 +1,11 @@
 interface HeaderProps {
   totalEvents: number;
   activeEvents: number;
+  search: string;
+  onSearchChange: (value: string) => void;
 }
 
-export default function Header({ totalEvents, activeEvents }: HeaderProps) {
+export default function Header({ totalEvents, activeEvents, search, onSearchChange }: HeaderProps) {
   return (
     <header className="border-b border-white/10 bg-[#0a0a0f]/80 backdrop-blur-sm sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-4 py-5 flex items-center justify-between">
@@ -17,6 +19,13 @@ export default function Header({ totalEvents, activeEvents }: HeaderProps) {
           </p>
         </div>
         <div className="flex items-center gap-4">
+          <input
+            type="text"
+            placeholder="Search events..."
+            value={search}
+            onChange={(e) => onSearchChange(e.target.value)}
+            className="hidden sm:block bg-white/5 border border-white/10 rounded-lg px-3 py-1.5 text-xs text-white placeholder-white/30 focus:outline-none focus:border-[#00ff88]/30 w-48"
+          />
           <div className="hidden sm:flex items-center gap-3 text-xs text-white/50">
             <span>
               <span className="text-white font-mono font-bold">{totalEvents}</span> events
