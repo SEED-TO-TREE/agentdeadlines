@@ -1,23 +1,86 @@
-- id: berkeley-agentx-2026
-  title: "AgentX AgentBeats Competition"
-  full_name: "Berkeley AgentX AgentBeats Competition — Build Benchmarks & AI Agents"
-  organizer: "Berkeley RDI"
-  url: "https://rdi.berkeley.edu/agentx-agentbeats.html"
-  deadline: "2026-04-15 23:59"
-  timezone: "UTC"
-  start_date: "2026-03-01"
-  end_date: "2026-06-30"
-  prize: "$1M+"
+# ============================================================
+# UPCOMING EVENTS (deadline after 2026-03-01)
+# ============================================================
+
+- id: gemini-live-agent-2026
+  title: "Gemini Live Agent Challenge"
+  full_name: "Gemini Live Agent Challenge — Redefining Interaction with Multimodal AI"
+  organizer: "Google"
+  url: "https://geminiliveagentchallenge.devpost.com/"
+  deadline: "2026-03-16 17:00"
+  timezone: "US/Pacific"
+  start_date: "2026-01-26"
+  end_date: "2026-03-16"
+  prize: "$80,000"
   categories:
-    - competition
-    - benchmark
-  format: "hybrid"
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - multimodal
+    - Gemini
+  note: "Build next-gen agents using Gemini Live API with video/audio beyond text-in/text-out"
+
+- id: amazon-nova-hackathon-2026
+  title: "Amazon Nova AI Hackathon"
+  full_name: "Amazon Nova AI Hackathon — Build Your Way with Amazon Nova"
+  organizer: "AWS"
+  url: "https://amazon-nova.devpost.com/"
+  deadline: "2026-03-16 17:00"
+  timezone: "US/Pacific"
+  start_date: "2026-01-27"
+  end_date: "2026-03-16"
+  prize: "$40,000 cash + $55,000 AWS credits"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - multimodal
+    - AWS
+  note: "Tracks: Agentic AI, Voice AI, Multimodal Understanding, UI Automation"
+
+- id: gitlab-ai-hackathon-2026
+  title: "GitLab AI Hackathon"
+  full_name: "GitLab AI Hackathon — You Orchestrate. AI Accelerates."
+  organizer: "GitLab"
+  url: "https://gitlab.devpost.com/"
+  deadline: "2026-03-25 14:00"
+  timezone: "US/Eastern"
+  start_date: "2026-02-09"
+  end_date: "2026-03-25"
+  prize: "$65,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - DevSecOps
+    - automation
+  note: "Build AI agents on GitLab Duo Agent Platform for code reviews, security, compliance"
+
+- id: constructor-genai-2026
+  title: "Constructor GenAI Hackathon"
+  full_name: "Constructor GenAI Hackathon 2026 — Multi-Agent & Decision Systems"
+  organizer: "Constructor University"
+  url: "https://constructor.university/events/constructor-genai-hackathon-2026-multi-agent-decision-systems"
+  deadline: "2026-03-30 23:59"
+  timezone: "Europe/Berlin"
+  start_date: "2026-03-27"
+  end_date: "2026-03-30"
+  prize: "Industry challenge prizes from BMW"
+  categories:
+    - hackathon
+  format: "in-person"
   platform: "independent"
   tags:
     - agent
-    - benchmark
-    - LLM
-  note: "Two-phase: build benchmarks (Phase 1), then create agents (Phase 2)"
+    - multi-agent
+    - enterprise
+  note: "In-person at Constructor University, Bremen; real industry challenges from BMW"
 
 - id: microsoft-ai-dev-days-2026
   title: "AI Dev Days Hackathon"
@@ -39,6 +102,481 @@
     - azure
   note: "Build apps, agents, or embed security with Azure & GitHub"
 
+- id: auth0-agents-2026
+  title: "Authorized to Act: AI Agents with Auth0"
+  full_name: "Authorized to Act — AI Agents with Auth0 Token Vault"
+  organizer: "Auth0 (Okta)"
+  url: "https://authorizedtoact.devpost.com/"
+  deadline: "2026-04-07 23:59"
+  timezone: "US/Eastern"
+  start_date: "2026-03-02"
+  end_date: "2026-04-07"
+  prize: "$10,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - auth
+    - security
+  note: "Build agentic AI with secure OAuth via Auth0 Token Vault (GitHub, Slack, Google, etc.)"
+
+- id: berkeley-agentx-2026
+  title: "AgentX AgentBeats Competition"
+  full_name: "Berkeley AgentX AgentBeats Competition — Build Benchmarks & AI Agents"
+  organizer: "Berkeley RDI"
+  url: "https://rdi.berkeley.edu/agentx-agentbeats.html"
+  deadline: "2026-04-15 23:59"
+  timezone: "UTC"
+  start_date: "2026-03-01"
+  end_date: "2026-06-30"
+  prize: "$1M+"
+  categories:
+    - competition
+    - benchmark
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - benchmark
+    - LLM
+  note: "Two-phase: build benchmarks (Phase 1), then create agents (Phase 2)"
+
+- id: google-ai-for-science-2026
+  title: "Google.org AI for Science"
+  full_name: "Google.org Impact Challenge — AI for Science 2026"
+  organizer: "Google.org"
+  url: "https://www.google.org/impact-challenges/ai-science/"
+  deadline: "2026-04-17 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-02-01"
+  end_date: "2026-04-17"
+  prize: "$30M fund ($500K–$3M per org)"
+  categories:
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - science
+    - health
+  note: "Nonprofits & academic orgs; AI for Health/Life Sciences and Climate Resilience"
+
+- id: intrinsic-ai-industry-2026
+  title: "AI for Industry Challenge"
+  full_name: "Intrinsic AI for Industry Challenge — Dexterous Manipulation"
+  organizer: "Intrinsic (Alphabet)"
+  url: "https://www.intrinsic.ai/events/ai-for-industry-challenge"
+  deadline: "2026-04-17 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-03-02"
+  end_date: "2026-07-31"
+  prize: "$180,000"
+  categories:
+    - competition
+    - benchmark
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - robotics
+    - manufacturing
+  note: "Three phases: simulation → Intrinsic Flowstate → physical workcell; teams up to 10"
+
+- id: moasei-aamas-2026
+  title: "MOASEI Competition"
+  full_name: "MOASEI 2026 — Methods for Open Agent Systems Evaluation @ AAMAS"
+  organizer: "OASYS Research / AAMAS"
+  url: "https://oasys-mas.github.io/moasei.html"
+  deadline: "2026-05-25 23:59"
+  timezone: "UTC"
+  start_date: "2026-05-25"
+  end_date: "2026-05-29"
+  prize: "Academic recognition"
+  categories:
+    - competition
+    - benchmark
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - multi-agent
+    - MARL
+    - evaluation
+  note: "Multi-Agent RL evaluation in Open Agent Systems at AAMAS 2026, Paphos, Cyprus"
+
+- id: devnetwork-ai-ml-2026
+  title: "DevNetwork AI+ML Hackathon"
+  full_name: "DevNetwork [AI + ML] Hackathon 2026 @ AI DevSummit"
+  organizer: "DevNetwork"
+  url: "https://devnetwork-ai-ml-hack-2026.devpost.com/"
+  deadline: "2026-05-28 10:00"
+  timezone: "US/Pacific"
+  start_date: "2026-05-11"
+  end_date: "2026-05-28"
+  prize: "$20,000+"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "devpost"
+  tags:
+    - agent
+    - ML
+    - conference
+  note: "Co-located with AI DevSummit 2026; 300+ international participants"
+
+- id: databricks-ai-agents-2026
+  title: "AI Agents Hackathon 2026"
+  full_name: "Databricks AI Agents Hackathon at Data+AI Summit 2026"
+  organizer: "Databricks"
+  url: "https://www.databricks.com/dataaisummit"
+  deadline: "2026-06-18 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-06-15"
+  end_date: "2026-06-18"
+  prize: "$10K / $5K / $2.5K"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "databricks"
+  tags:
+    - agent
+    - data
+    - enterprise
+  note: "Full-day in-person hackathon at Data+AI Summit, San Francisco; teams up to 4"
+
+- id: agibot-world-2026
+  title: "AGIBOT World Challenge"
+  full_name: "AGIBOT World Challenge @ ICRA 2026 — Embodied AI Robotics"
+  organizer: "AGIBOT / IEEE ICRA"
+  url: "https://agibot-world.com/challenge"
+  deadline: "2026-06-30 23:59"
+  timezone: "Europe/Vienna"
+  start_date: "2026-06-01"
+  end_date: "2026-06-30"
+  prize: "$530,000"
+  categories:
+    - competition
+    - benchmark
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - robotics
+    - embodied-AI
+  note: "Three tracks: World Model, VLM+VLA, Whole-Body Control; at ICRA 2026 in Vienna"
+
+- id: vslive-microsoft-2026
+  title: "VSLive AI Hackathon"
+  full_name: "VSLive Microsoft HQ 2026 Hackathon — AI Agents & Azure"
+  organizer: "Visual Studio Live! / Microsoft"
+  url: "https://vslive.com/events/microsofthq-2026/hackathon.aspx"
+  deadline: "2026-07-29 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-07-28"
+  end_date: "2026-07-29"
+  prize: "Up to $25,000"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - agent
+    - Azure
+    - .NET
+  note: "In-person at Microsoft HQ, Redmond; free with conference registration or $50 pass"
+
+- id: amazon-nova-challenge-2026
+  title: "Amazon Nova AI Challenge"
+  full_name: "Amazon Nova AI Challenge 2026 — Trusted Software Agents"
+  organizer: "Amazon Science"
+  url: "https://www.amazon.science/nova-ai-challenge"
+  deadline: "2026-09-30 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-02-01"
+  end_date: "2026-09-30"
+  prize: "$700,000"
+  categories:
+    - competition
+    - benchmark
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - software-engineering
+    - safety
+  note: "University competition: 10 teams as developers or red-teamers for trusted agentic AI"
+
+- id: lablab-ai-agents-weekly
+  title: "Lablab.ai AI Agent Hackathons"
+  full_name: "Lablab.ai — Recurring AI Agent Hackathons"
+  organizer: "Lablab.ai"
+  url: "https://lablab.ai/event"
+  deadline: "2026-12-31 23:59"
+  timezone: "UTC"
+  start_date: "2025-01-01"
+  end_date: "2026-12-31"
+  prize: "Varies per event"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "lablab"
+  tags:
+    - agent
+    - LLM
+    - recurring
+  note: "New AI hackathons every 2-3 weeks, check site for latest"
+
+# ============================================================
+# RECENTLY ENDED (early 2026)
+# ============================================================
+
+- id: mistral-worldwide-2026
+  title: "Mistral AI Worldwide Hackathon"
+  full_name: "Mistral AI Worldwide Hackathon 2026 — 7 Cities + Online"
+  organizer: "Mistral AI"
+  url: "https://worldwide-hackathon.mistral.ai/"
+  deadline: "2026-03-01 23:59"
+  timezone: "Europe/Paris"
+  start_date: "2026-02-28"
+  end_date: "2026-03-01"
+  prize: "$200,000+"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - Mistral
+    - global
+  note: "1,000+ participants across Paris, London, NYC, SF, Tokyo, Singapore, Sydney"
+
+- id: uk-ai-agent-hack-ep4-2026
+  title: "UK AI Agent Hack EP4"
+  full_name: "UK AI Agent Hackathon EP4 x OpenClaw"
+  organizer: "UK AI Agent Hack / OpenClaw"
+  url: "https://dorahacks.io/hackathon/1985/detail"
+  deadline: "2026-03-07 23:59"
+  timezone: "UTC"
+  start_date: "2026-03-01"
+  end_date: "2026-03-07"
+  prize: "Sponsor bounties"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "dorahacks"
+  tags:
+    - agent
+    - multi-agent
+    - web3
+  note: "Production-ready AI agents; opening ceremony at Imperial College London"
+
+- id: weex-ai-wars-2026
+  title: "AI Wars: Alpha Awakens"
+  full_name: "WEEX AI Wars — Global AI Trading Hackathon"
+  organizer: "WEEX Labs"
+  url: "https://www.weex.com/events/ai-trading"
+  deadline: "2026-03-03 23:59"
+  timezone: "UTC"
+  start_date: "2025-11-20"
+  end_date: "2026-03-03"
+  prize: "$1.88M (credits + prizes)"
+  categories:
+    - hackathon
+    - competition
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - trading
+    - crypto
+  note: "AI trading agents; real-time performance judging; prizes include a Bentley"
+
+- id: anthropic-claude-code-2026
+  title: "Claude Code Hackathon"
+  full_name: "Built with Opus 4.6 — The Claude Code Hackathon"
+  organizer: "Anthropic"
+  url: "https://cerebralvalley.ai/e/claude-code-hackathon"
+  deadline: "2026-02-16 15:00"
+  timezone: "US/Eastern"
+  start_date: "2026-02-10"
+  end_date: "2026-02-16"
+  prize: "$100,000 in API credits"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - Claude
+    - coding
+  note: "500 selected participants; Opus 4.6 with 1M-token context; winners at Claude Birthday SF"
+
+- id: gemini-3-hackathon-2026
+  title: "Gemini 3 Hackathon"
+  full_name: "Gemini 3 Hackathon — Build What's Next"
+  organizer: "Google DeepMind"
+  url: "https://gemini3.devpost.com/"
+  deadline: "2026-02-09 23:59"
+  timezone: "US/Pacific"
+  start_date: "2025-12-30"
+  end_date: "2026-02-09"
+  prize: "$100,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - reasoning
+    - Gemini
+  note: "Grand Prize $50K + AI Futures Fund interview; plan/execute/self-correct with real-time vision"
+
+- id: colosseum-solana-agents-2026
+  title: "Colosseum Agent Hackathon"
+  full_name: "Colosseum AI Agent Hackathon — AI Agents Build on Solana"
+  organizer: "Colosseum / Solana"
+  url: "https://colosseum.com/agent-hackathon/"
+  deadline: "2026-02-13 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-02-02"
+  end_date: "2026-02-13"
+  prize: "$100,000 USDC"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - web3
+    - Solana
+  note: "All code must be written by AI agents; humans configure and vote via X"
+
+- id: nearcon-agent-wars-2026
+  title: "NEARCON Agent Wars"
+  full_name: "NEARCON Agent Wars — The First Hackathon Where Humans Don't Code"
+  organizer: "NEAR Protocol"
+  url: "https://nearcon.org/the-agent-hackathon/"
+  deadline: "2026-02-24 11:00"
+  timezone: "US/Pacific"
+  start_date: "2026-02-20"
+  end_date: "2026-02-24"
+  prize: "Part of $950K bounty pool"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - web3
+    - NEAR
+  note: "Agents connect to NEAR AI Marketplace; benchmarks what AI agents can truly ship"
+
+- id: afore-return-agents-2026
+  title: "Return of the Agents"
+  full_name: "Return of the Agents — AI Hackathon by Afore Capital"
+  organizer: "Afore Capital"
+  url: "https://www.aforehacks.org/"
+  deadline: "2026-02-21 17:00"
+  timezone: "US/Pacific"
+  start_date: "2026-02-21"
+  end_date: "2026-02-21"
+  prize: "$5K + $500K–$2M pre-seed funding"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - agent
+    - startup
+    - VC
+  note: "500+ builders in SF; one-day sprint; fast-track to Afore Capital pre-seed"
+
+- id: orak-game-agent-2025
+  title: "Orak Game Agent Challenge"
+  full_name: "Orak Game Agent Challenge 2025 — LLM Agents in Real Games"
+  organizer: "Orak / AIcrowd"
+  url: "https://www.aicrowd.com/challenges/orak-game-agent-challenge-2025"
+  deadline: "2026-02-08 23:59"
+  timezone: "UTC"
+  start_date: "2025-10-01"
+  end_date: "2026-02-08"
+  prize: "$20,000"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "aicrowd"
+  tags:
+    - agent
+    - gaming
+    - benchmark
+  note: "LLM agents in Super Mario, Pokemon, StarCraft II, 2048; two tracks: SLM (≤8B) and Open"
+
+# ============================================================
+# PAST EVENTS (2025)
+# ============================================================
+
+- id: salesforce-agentforce-2025
+  title: "Agentforce Virtual Hackathon"
+  full_name: "Salesforce Agentforce Virtual Hackathon"
+  organizer: "Salesforce"
+  url: "https://agentforcehackathon.devpost.com/"
+  deadline: "2025-04-30 16:00"
+  timezone: "US/Pacific"
+  start_date: "2025-03-05"
+  end_date: "2025-04-30"
+  prize: "$140,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - Salesforce
+    - enterprise
+  note: "Grand Prize $50K; build agents with Agent Builder and Agentforce DX"
+
+- id: microsoft-ai-agents-2025
+  title: "Microsoft AI Agents Hackathon"
+  full_name: "Microsoft AI Agents Hackathon 2025 — Multi-Framework"
+  organizer: "Microsoft"
+  url: "https://microsoft.github.io/AI_Agents_Hackathon/"
+  deadline: "2025-04-30 23:59"
+  timezone: "US/Pacific"
+  start_date: "2025-04-08"
+  end_date: "2025-04-30"
+  prize: "$45,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - AutoGen
+    - Semantic-Kernel
+  note: "570 submissions; Semantic Kernel, AutoGen, Azure AI Agents SDK tracks"
+
+- id: openserv-hackathon-2025
+  title: "OpenServ AI Agent Hackathon"
+  full_name: "OpenServ AI Agent Hackathon — Web3/DeFAI Agents"
+  organizer: "OpenServ"
+  url: "https://openservai.hackerearth.com/"
+  deadline: "2025-04-30 23:59"
+  timezone: "UTC"
+  start_date: "2025-04-01"
+  end_date: "2025-04-30"
+  prize: "TBD"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "hackerearth"
+  tags:
+    - agent
+    - web3
+    - DeFi
+  note: "Two-phase: concept submission, then development sprint"
+
 - id: nvidia-agent-toolkit-2025
   title: "Agent Toolkit Hackathon"
   full_name: "NVIDIA Agent Toolkit Hackathon"
@@ -58,6 +596,66 @@
     - open-source
     - toolkit
   note: "Build agentic AI with NVIDIA Agent Intelligence toolkit"
+
+- id: hf-gradio-agents-summer-2025
+  title: "Gradio Agents & MCP Hackathon"
+  full_name: "Hugging Face Gradio Agents & MCP Hackathon — Summer 2025"
+  organizer: "Hugging Face"
+  url: "https://huggingface.co/Agents-MCP-Hackathon"
+  deadline: "2025-06-08 23:59"
+  timezone: "UTC"
+  start_date: "2025-06-02"
+  end_date: "2025-06-10"
+  prize: "$16,500 + $1M+ sponsor credits"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "huggingface"
+  tags:
+    - agent
+    - MCP
+    - Gradio
+  note: "4,100+ registrations; 3 tracks: MCP Tool/Server, Custom Components, Agentic Demo"
+
+- id: databricks-ai-agents-2025
+  title: "AI Agents Hackathon"
+  full_name: "Databricks AI Agents Hackathon at Data+AI Summit"
+  organizer: "Databricks"
+  url: "https://www.databricks.com/dataaisummit/session/ai-agents-hackathon"
+  deadline: "2025-06-12 23:59"
+  timezone: "US/Pacific"
+  start_date: "2025-06-12"
+  end_date: "2025-06-12"
+  prize: "$10K / $5K / $2.5K"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "databricks"
+  tags:
+    - agent
+    - data
+    - enterprise
+  note: "In-person at Data+AI Summit, teams of up to 4"
+
+- id: google-adk-hackathon-2025
+  title: "Google ADK Hackathon"
+  full_name: "Agent Development Kit Hackathon with Google Cloud"
+  organizer: "Google Cloud"
+  url: "https://googlecloudmultiagents.devpost.com/"
+  deadline: "2025-06-23 17:00"
+  timezone: "US/Pacific"
+  start_date: "2025-05-12"
+  end_date: "2025-06-23"
+  prize: "$50,000+"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - multi-agent
+    - Google-Cloud
+  note: "Build multi-agent AI systems with Google Agent Development Kit"
 
 - id: 100agents-2025
   title: "100 Agents Hackathon"
@@ -101,25 +699,65 @@
     - safety
   note: "5 tracks: Applications, Benchmarks, Fundamentals, Safety, Multi-Agent"
 
-- id: databricks-ai-agents-2025
-  title: "AI Agents Hackathon"
-  full_name: "Databricks AI Agents Hackathon at Data+AI Summit"
-  organizer: "Databricks"
-  url: "https://www.databricks.com/dataaisummit/session/ai-agents-hackathon"
-  deadline: "2025-06-12 23:59"
-  timezone: "US/Pacific"
-  start_date: "2025-06-12"
-  end_date: "2025-06-12"
-  prize: "$10K / $5K / $2.5K"
+- id: openai-open-model-2025
+  title: "OpenAI Open Model Hackathon"
+  full_name: "OpenAI Open Model Hackathon — Build with gpt-oss"
+  organizer: "OpenAI / Hugging Face / NVIDIA"
+  url: "https://openai.devpost.com/"
+  deadline: "2025-09-11 20:00"
+  timezone: "US/Eastern"
+  start_date: "2025-08-05"
+  end_date: "2025-09-11"
+  prize: "$30,000+ in cash and hardware"
   categories:
     - hackathon
-  format: "in-person"
-  platform: "databricks"
+  format: "online"
+  platform: "devpost"
   tags:
     - agent
-    - data
-    - enterprise
-  note: "In-person at Data+AI Summit, teams of up to 4"
+    - open-source
+    - reasoning
+  note: "6-week hackathon; gpt-oss open weight models; Best Local Agent wins RTX 5090"
+
+- id: aws-ai-agent-global-2025
+  title: "AWS AI Agent Global Hackathon"
+  full_name: "AWS AI Agent Global Hackathon — Agents of Change"
+  organizer: "AWS"
+  url: "https://aws-agent-hackathon.devpost.com/"
+  deadline: "2025-10-22 20:00"
+  timezone: "US/Eastern"
+  start_date: "2025-09-08"
+  end_date: "2025-10-22"
+  prize: "$45,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - AWS
+    - Bedrock
+  note: "9,492 participants; Amazon Bedrock AgentCore, Amazon Q, SageMaker tracks"
+
+- id: google-chrome-ai-2025
+  title: "Chrome Built-in AI Challenge"
+  full_name: "Google Chrome Built-in AI Challenge 2025"
+  organizer: "Google Chrome"
+  url: "https://googlechromeai2025.devpost.com/"
+  deadline: "2025-10-31 23:45"
+  timezone: "US/Pacific"
+  start_date: "2025-07-01"
+  end_date: "2025-10-31"
+  prize: "$70,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - browser
+    - Gemini-Nano
+  note: "Build web apps or Chrome Extensions using built-in AI APIs including Gemini Nano"
 
 - id: arc-prize-2025
   title: "ARC Prize 2025"
@@ -142,42 +780,122 @@
     - reasoning
   note: "ARC-AGI benchmark, $600K grand prize + $125K progress prizes"
 
-- id: openserv-hackathon-2025
-  title: "OpenServ AI Agent Hackathon"
-  full_name: "OpenServ AI Agent Hackathon — Web3/DeFAI Agents"
-  organizer: "OpenServ"
-  url: "https://openservai.hackerearth.com/"
-  deadline: "2025-04-30 23:59"
+- id: great-agent-hack-2025
+  title: "Great Agent Hack 2025"
+  full_name: "Great Agent Hack 2025 — Holistic AI & Stanford HAI"
+  organizer: "Holistic AI / Stanford HAI"
+  url: "https://hai-great-agent-hack-2025.devpost.com/"
+  deadline: "2025-11-16 23:59"
+  timezone: "US/Eastern"
+  start_date: "2025-11-16"
+  end_date: "2025-11-16"
+  prize: "$65,000"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "devpost"
+  tags:
+    - agent
+    - safety
+    - red-team
+  note: "$40K 1st + $25K 2nd; 3 tracks: Agent Ironman, Agent Glass Box, Dear Grandma"
+
+- id: hf-gradio-agents-winter-2025
+  title: "Gradio Agents & MCP — Winter"
+  full_name: "Gradio Agents & MCP Hackathon Winter 2025 — MCP 1st Birthday"
+  organizer: "Hugging Face / Anthropic"
+  url: "https://huggingface.co/MCP-1st-Birthday"
+  deadline: "2025-11-30 23:59"
   timezone: "UTC"
-  start_date: "2025-04-01"
-  end_date: "2025-04-30"
-  prize: "TBD"
+  start_date: "2025-11-14"
+  end_date: "2025-11-30"
+  prize: "$21,000 + API credits"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "huggingface"
+  tags:
+    - agent
+    - MCP
+    - Anthropic
+  note: "Co-hosted with Anthropic for MCP's 1st birthday; Building MCP + MCP in Action tracks"
+
+- id: agent-ai-challenge-2025
+  title: "Agent.ai Challenge"
+  full_name: "Agent.ai Challenge — No-Code AI Agent Hackathon"
+  organizer: "Agent.ai"
+  url: "https://www.hackerearth.com/challenges/hackathon/agentai-hackathon/"
+  deadline: "2025-12-15 18:29"
+  timezone: "UTC"
+  start_date: "2025-09-16"
+  end_date: "2025-12-14"
+  prize: "$30,000+"
   categories:
     - hackathon
   format: "online"
   platform: "hackerearth"
   tags:
     - agent
-    - web3
-    - DeFi
-  note: "Two-phase: concept submission, then development sprint"
+    - no-code
+    - automation
+  note: "Build no-code AI agents on Agent.ai platform; open to all skill levels"
 
-- id: lablab-ai-agents-weekly
-  title: "Lablab.ai AI Agent Hackathons"
-  full_name: "Lablab.ai — Recurring AI Agent Hackathons"
-  organizer: "Lablab.ai"
-  url: "https://lablab.ai/event"
-  deadline: "2026-12-31 23:59"
+- id: ethglobal-agentic-ethereum-2025
+  title: "Agentic Ethereum"
+  full_name: "ETHGlobal Agentic Ethereum — AI Agents on Blockchain"
+  organizer: "ETHGlobal"
+  url: "https://ethglobal.com/events/agents"
+  deadline: "2025-02-09 12:00"
+  timezone: "US/Eastern"
+  start_date: "2025-01-31"
+  end_date: "2025-02-14"
+  prize: "Multiple tiers ($1K–$20K)"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "ethglobal"
+  tags:
+    - agent
+    - web3
+    - Ethereum
+  note: "AI agents and autonomous systems interacting with blockchain"
+
+- id: fetch-ai-agents-league-2025
+  title: "Global AI Agents League"
+  full_name: "Fetch.ai Global AI Agents League"
+  organizer: "Fetch.ai"
+  url: "https://fetch-ai-hackathon.devpost.com/"
+  deadline: "2025-04-08 23:59"
   timezone: "UTC"
-  start_date: "2025-01-01"
-  end_date: "2026-12-31"
-  prize: "Varies per event"
+  start_date: "2025-02-14"
+  end_date: "2025-04-08"
+  prize: "$10,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - web3
+    - Fetch.ai
+  note: "Build agents using uAgents or LangChain/CrewAI/AutoGen, connect to Agentverse"
+
+- id: ibm-watsonx-orchestrate-2025
+  title: "IBM watsonx Orchestrate Hackathon"
+  full_name: "Agentic AI Hackathon with IBM watsonx Orchestrate"
+  organizer: "IBM"
+  url: "https://lablab.ai/ai-hackathons/agentic-ai-hackathon-ibm-watsonx-orchestrate"
+  deadline: "2025-11-23 23:59"
+  timezone: "US/Eastern"
+  start_date: "2025-11-21"
+  end_date: "2025-11-23"
+  prize: "$5,000 + IBM TechXchange passes"
   categories:
     - hackathon
   format: "online"
   platform: "lablab"
   tags:
     - agent
-    - LLM
-    - recurring
-  note: "New AI hackathons every 2-3 weeks, check site for latest"
+    - IBM
+    - enterprise
+  note: "48-hour hackathon; build agentic AI with IBM watsonx Orchestrate"
