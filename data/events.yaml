@@ -307,6 +307,208 @@
     - safety
   note: "University competition: 10 teams as developers or red-teamers for trusted agentic AI"
 
+- id: nvidia-gtc-hackathon-2026
+  title: "NVIDIA GTC 2026 Hackathon"
+  full_name: "NVIDIA GTC 2026 — Hack to Create & Hack for Impact"
+  organizer: "NVIDIA"
+  url: "https://www.nvidia.com/gtc/"
+  deadline: "2026-03-16 09:00"
+  timezone: "US/Pacific"
+  start_date: "2026-03-16"
+  end_date: "2026-03-19"
+  prize: "Hardware prizes + GTC main stage spot"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - agent
+    - NVIDIA
+    - Nemotron
+  note: "Two tracks: Hack to Create (creator economy) and Hack for Impact (social good with Nemotron & Cosmos); San Jose Convention Center"
+
+- id: cncf-mcp-agents-2026
+  title: "CNCF MCP & AI Agents Hackathon"
+  full_name: "CNCF Hackathon for MCP and AI Agents"
+  organizer: "CNCF"
+  url: "https://aihackathon.dev/"
+  deadline: "2026-04-03 23:59"
+  timezone: "US/Eastern"
+  start_date: "2026-01-26"
+  end_date: "2026-04-03"
+  prize: "$5,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - MCP
+    - cloud-native
+  note: "5 categories: MCP Starter, Secure & Govern MCP, Building Cool Agents, Agent Registry, Open Source Contributions"
+
+- id: aimo-progress-prize-3
+  title: "AIMO Progress Prize 3"
+  full_name: "AI Mathematical Olympiad — Progress Prize 3"
+  organizer: "AIMO Prize Foundation (XTX Markets)"
+  url: "https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3"
+  deadline: "2026-04-15 23:59"
+  timezone: "UTC"
+  start_date: "2025-11-19"
+  end_date: "2026-04-15"
+  prize: "$2,207,152"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - AI
+    - math
+    - reasoning
+  note: "110 original math problems at National Olympiad to IMO difficulty; open-source models required; winners showcase at AI Day at 2026 IMO in Shanghai"
+
+- id: ethglobal-cannes-2026
+  title: "ETHGlobal Cannes"
+  full_name: "ETHGlobal Cannes 2026 — AI + Web3 Hackathon"
+  organizer: "ETHGlobal"
+  url: "https://ethglobal.com/events/cannes"
+  deadline: "2026-04-05 18:00"
+  timezone: "Europe/Paris"
+  start_date: "2026-04-03"
+  end_date: "2026-04-05"
+  prize: "$500K+ in sponsor bounties"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "ethglobal"
+  tags:
+    - agent
+    - web3
+    - Ethereum
+  note: "In-person at Palace of Festivals, Cannes; AI agent and blockchain tracks"
+
+- id: ethglobal-newyork-2026
+  title: "ETHGlobal New York"
+  full_name: "ETHGlobal New York 2026 — AI + Web3 Hackathon"
+  organizer: "ETHGlobal"
+  url: "https://ethglobal.com/events/newyork"
+  deadline: "2026-06-14 18:00"
+  timezone: "US/Eastern"
+  start_date: "2026-06-12"
+  end_date: "2026-06-14"
+  prize: "$500K+ in sponsor bounties"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "ethglobal"
+  tags:
+    - agent
+    - web3
+    - Ethereum
+  note: "In-person ETHGlobal hackathon in New York City"
+
+- id: robocup-2026
+  title: "RoboCup 2026 Incheon"
+  full_name: "RoboCup 2026 — World's Largest Autonomous Agent Robotics Competition"
+  organizer: "RoboCup Federation"
+  url: "https://www.robocup.org/events/80"
+  deadline: "2026-06-30 09:00"
+  timezone: "Asia/Seoul"
+  start_date: "2026-06-30"
+  end_date: "2026-07-06"
+  prize: "Trophies + academic recognition"
+  categories:
+    - competition
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - agent
+    - robotics
+    - autonomous
+  note: "World's largest robotics and AI competition; Songdo Convensia, Incheon, South Korea; 3,000+ competitors across Soccer, Rescue, @Home, Industrial leagues"
+
+- id: ethglobal-lisbon-2026
+  title: "ETHGlobal Lisbon"
+  full_name: "ETHGlobal Lisbon 2026 — AI + Web3 Hackathon"
+  organizer: "ETHGlobal"
+  url: "https://ethglobal.com/events/lisbon"
+  deadline: "2026-07-26 18:00"
+  timezone: "Europe/Lisbon"
+  start_date: "2026-07-24"
+  end_date: "2026-07-26"
+  prize: "$500K+ in sponsor bounties"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "ethglobal"
+  tags:
+    - agent
+    - web3
+    - Ethereum
+  note: "In-person ETHGlobal hackathon in Lisbon, Portugal"
+
+- id: aws-ai-league-2026
+  title: "AWS AI League 2026"
+  full_name: "AWS AI League 2026 Championship — Agentic AI & Model Customization"
+  organizer: "AWS"
+  url: "https://aws.amazon.com/ai/aileague/"
+  deadline: "2026-09-30 23:59"
+  timezone: "US/Pacific"
+  start_date: "2025-12-01"
+  end_date: "2026-12-04"
+  prize: "$50,000"
+  categories:
+    - competition
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - AWS
+    - Bedrock
+  note: "Two tracks: Model Customization (SageMaker) & Agentic AI (Bedrock AgentCore); qualification at AWS Summits, Grand Finale at re:Invent 2026"
+
+- id: ethglobal-tokyo-2026
+  title: "ETHGlobal Tokyo"
+  full_name: "ETHGlobal Tokyo 2026 — AI + Web3 Hackathon"
+  organizer: "ETHGlobal"
+  url: "https://ethglobal.com/events/tokyo"
+  deadline: "2026-09-27 18:00"
+  timezone: "Asia/Tokyo"
+  start_date: "2026-09-25"
+  end_date: "2026-09-27"
+  prize: "$500K+ in sponsor bounties"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "ethglobal"
+  tags:
+    - agent
+    - web3
+    - Ethereum
+  note: "In-person ETHGlobal hackathon in Tokyo, Japan"
+
+- id: arc-prize-2026
+  title: "ARC Prize 2026"
+  full_name: "ARC Prize 2026 — ARC-AGI-3 Interactive Reasoning Benchmark"
+  organizer: "ARC Prize Foundation"
+  url: "https://arcprize.org/"
+  deadline: "2026-11-01 23:59"
+  timezone: "UTC"
+  start_date: "2026-03-25"
+  end_date: "2026-11-01"
+  prize: "$1,000,000+"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - AGI
+    - benchmark
+    - reasoning
+  note: "First interactive reasoning benchmark; 1,000+ levels across 150+ environments; agents must explore, learn, plan, and adapt; Grand Prize unclaimed from 2025 carries forward"
+
 - id: lablab-ai-agents-weekly
   title: "Lablab.ai AI Agent Hackathons"
   full_name: "Lablab.ai — Recurring AI Agent Hackathons"
