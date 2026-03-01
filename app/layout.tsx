@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     description: "Never miss an AI Agent hackathon or competition deadline.",
     images: ["/og-image.png"],
   },
+  verification: {
+    google: "dwwOjIBOH14Dt2kdvj5n_zjCdN-3VCtjTRBQ2_7VnLg",
+  },
   robots: {
     index: true,
     follow: true,
