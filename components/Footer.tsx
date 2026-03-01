@@ -20,7 +20,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
             >
-              @남우
+              Namu Kim (남우)
             </a>
           </span>
         </div>
