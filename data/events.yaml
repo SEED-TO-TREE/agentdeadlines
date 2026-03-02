@@ -1,5 +1,5 @@
 # ============================================================
-# UPCOMING EVENTS (deadline after 2026-03-01)
+# UPCOMING EVENTS (deadline after 2026-03-02)
 # ============================================================
 
 - id: gemini-live-agent-2026
@@ -307,6 +307,66 @@
     - safety
   note: "University competition: 10 teams as developers or red-teamers for trusted agentic AI"
 
+- id: digitalocean-gradient-2026
+  title: "DigitalOcean Gradient AI Hackathon"
+  full_name: "DigitalOcean Gradient™ AI Hackathon — Build Smarter. Ship Faster."
+  organizer: "DigitalOcean"
+  url: "https://digitalocean.devpost.com/"
+  deadline: "2026-03-18 17:00"
+  timezone: "US/Eastern"
+  start_date: "2026-01-28"
+  end_date: "2026-03-18"
+  prize: "$20,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - AI
+    - cloud
+  note: "Production-ready AI apps with DigitalOcean Gradient AI; Best AI Agent Persona prize track"
+
+- id: airia-agents-hackathon-2026
+  title: "Airia AI Agents Hackathon"
+  full_name: "Airia AI Agents Hackathon — Intelligence Everywhere It's Needed"
+  organizer: "Airia"
+  url: "https://airia-hackathon.devpost.com/"
+  deadline: "2026-03-19 23:45"
+  timezone: "US/Eastern"
+  start_date: "2026-02-16"
+  end_date: "2026-03-19"
+  prize: "$7,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - multi-agent
+    - enterprise
+  note: "Two tracks: Airia Everywhere (embed AI in daily platforms) & Active Agents (multi-agent workflows)"
+
+- id: lablab-trading-agents-2026
+  title: "AI Trading Agents Hackathon"
+  full_name: "AI Trading Agents with ERC-8004 — Trustless Financial Agents"
+  organizer: "Lablab.ai / Surge"
+  url: "https://lablab.ai/ai-hackathons/ai-trading-agents-erc-8004"
+  deadline: "2026-03-22 23:59"
+  timezone: "UTC"
+  start_date: "2026-03-09"
+  end_date: "2026-03-22"
+  prize: "$50,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "lablab"
+  tags:
+    - agent
+    - trading
+    - web3
+  note: "Build autonomous trading, risk, yield, or protection agents using ERC-8004 on-chain trust"
+
 - id: nvidia-gtc-hackathon-2026
   title: "NVIDIA GTC 2026 Hackathon"
   full_name: "NVIDIA GTC 2026 — Hack to Create & Hack for Impact"
@@ -533,25 +593,26 @@
 # RECENTLY ENDED (early 2026)
 # ============================================================
 
-- id: mistral-worldwide-2026
-  title: "Mistral AI Worldwide Hackathon"
-  full_name: "Mistral AI Worldwide Hackathon 2026 — 7 Cities + Online"
-  organizer: "Mistral AI"
-  url: "https://worldwide-hackathon.mistral.ai/"
-  deadline: "2026-03-01 23:59"
-  timezone: "Europe/Paris"
-  start_date: "2026-02-28"
-  end_date: "2026-03-01"
-  prize: "$200,000+"
+- id: weex-ai-wars-2026
+  title: "AI Wars: Alpha Awakens"
+  full_name: "WEEX AI Wars — Global AI Trading Hackathon"
+  organizer: "WEEX Labs"
+  url: "https://www.weex.com/events/ai-trading"
+  deadline: "2026-03-03 23:59"
+  timezone: "UTC"
+  start_date: "2025-11-20"
+  end_date: "2026-03-03"
+  prize: "$1.88M (credits + prizes)"
   categories:
     - hackathon
+    - competition
   format: "hybrid"
   platform: "independent"
   tags:
     - agent
-    - Mistral
-    - global
-  note: "1,000+ participants across Paris, London, NYC, SF, Tokyo, Singapore, Sydney"
+    - trading
+    - crypto
+  note: "AI trading agents; real-time performance judging; prizes include a Bentley"
 
 - id: uk-ai-agent-hack-ep4-2026
   title: "UK AI Agent Hack EP4"
@@ -573,26 +634,25 @@
     - web3
   note: "Production-ready AI agents; opening ceremony at Imperial College London"
 
-- id: weex-ai-wars-2026
-  title: "AI Wars: Alpha Awakens"
-  full_name: "WEEX AI Wars — Global AI Trading Hackathon"
-  organizer: "WEEX Labs"
-  url: "https://www.weex.com/events/ai-trading"
-  deadline: "2026-03-03 23:59"
-  timezone: "UTC"
-  start_date: "2025-11-20"
-  end_date: "2026-03-03"
-  prize: "$1.88M (credits + prizes)"
+- id: mistral-worldwide-2026
+  title: "Mistral AI Worldwide Hackathon"
+  full_name: "Mistral AI Worldwide Hackathon 2026 — 7 Cities + Online"
+  organizer: "Mistral AI"
+  url: "https://worldwide-hackathon.mistral.ai/"
+  deadline: "2026-03-01 23:59"
+  timezone: "Europe/Paris"
+  start_date: "2026-02-28"
+  end_date: "2026-03-01"
+  prize: "$200,000+"
   categories:
     - hackathon
-    - competition
   format: "hybrid"
   platform: "independent"
   tags:
     - agent
-    - trading
-    - crypto
-  note: "AI trading agents; real-time performance judging; prizes include a Bentley"
+    - Mistral
+    - global
+  note: "1,000+ participants across Paris, London, NYC, SF, Tokyo, Singapore, Sydney"
 
 - id: anthropic-claude-code-2026
   title: "Claude Code Hackathon"
