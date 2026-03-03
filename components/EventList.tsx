@@ -1,10 +1,20 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { ParsedEvent, Category, Format, Status } from "@/lib/types";
 import Header from "./Header";
 import FilterBar from "./FilterBar";
 import EventCard from "./EventCard";
+
+function recalcEvents(events: ParsedEvent[]): ParsedEvent[] {
+  const now = new Date();
+  return events.map((e) => {
+    const deadlineDate = new Date(e.deadlineDate);
+    const diffMs = deadlineDate.getTime() - now.getTime();
+    const daysLeft = Math.ceil(diffMs / (1000 * 60 * 60 * 24));
+    return { ...e, daysLeft, status: daysLeft >= 0 ? "upcoming" : "past" } as ParsedEvent;
+  });
+}
 
 interface EventListProps {
   events: ParsedEvent[];
@@ -35,11 +45,19 @@ function EventGroup({ title, color, dotColor, events }: GroupProps) {
   );
 }
 
-export default function EventList({ events }: EventListProps) {
+export default function EventList({ events: serverEvents }: EventListProps) {
+  const [events, setEvents] = useState(() => recalcEvents(serverEvents));
   const [categoryFilter, setCategoryFilter] = useState<Category | "all">("all");
   const [formatFilter, setFormatFilter] = useState<Format | "all">("all");
   const [statusFilter, setStatusFilter] = useState<Status>("upcoming");
   const [search, setSearch] = useState("");
+
+  // Recalculate D-days every minute so past events move out of "upcoming" automatically
+  useEffect(() => {
+    setEvents(recalcEvents(serverEvents));
+    const timer = setInterval(() => setEvents(recalcEvents(serverEvents)), 60_000);
+    return () => clearInterval(timer);
+  }, [serverEvents]);
 
   const totalEvents = events.length;
   const activeEvents = events.filter((e) => e.status === "upcoming").length;
