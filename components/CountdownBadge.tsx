@@ -2,6 +2,12 @@
 
 import { useEffect, useState } from "react";
 
+function calcDaysLeft(deadlineDate: Date | string): number {
+  const now = new Date();
+  const diffMs = new Date(deadlineDate).getTime() - now.getTime();
+  return Math.ceil(diffMs / (1000 * 60 * 60 * 24));
+}
+
 interface CountdownBadgeProps {
   daysLeft: number;
   deadlineDate: Date;
@@ -13,11 +19,11 @@ export default function CountdownBadge({
 }: CountdownBadgeProps) {
   const [daysLeft, setDaysLeft] = useState(initialDays);
 
+  // Recalculate immediately on mount (client time) and every minute
   useEffect(() => {
+    setDaysLeft(calcDaysLeft(deadlineDate));
     const timer = setInterval(() => {
-      const now = new Date();
-      const diffMs = new Date(deadlineDate).getTime() - now.getTime();
-      setDaysLeft(Math.ceil(diffMs / (1000 * 60 * 60 * 24)));
+      setDaysLeft(calcDaysLeft(deadlineDate));
     }, 60000);
     return () => clearInterval(timer);
   }, [deadlineDate]);
