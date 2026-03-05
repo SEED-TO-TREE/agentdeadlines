@@ -225,6 +225,26 @@
     - conference
   note: "Co-located with AI DevSummit 2026; 300+ international participants"
 
+- id: agents-assemble-healthcare-2026
+  title: "Agents Assemble — Healthcare AI"
+  full_name: "Agents Assemble — The Healthcare AI Endgame Challenge"
+  organizer: "Prompt Opinion (Darena Health)"
+  url: "https://agents-assemble.devpost.com/"
+  deadline: "2026-05-11 23:00"
+  timezone: "US/Eastern"
+  start_date: "2026-03-04"
+  end_date: "2026-05-11"
+  prize: "$25,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - healthcare
+    - MCP
+  note: "Build interoperable healthcare agents using MCP, A2A, and FHIR standards"
+
 - id: databricks-ai-agents-2026
   title: "AI Agents Hackathon 2026"
   full_name: "Databricks AI Agents Hackathon at Data+AI Summit 2026"
@@ -386,6 +406,26 @@
     - NVIDIA
     - Nemotron
   note: "Two tracks: Hack to Create (creator economy) and Hack for Impact (social good with Nemotron & Cosmos); San Jose Convention Center"
+
+- id: tinyfish-accelerator-2026
+  title: "TinyFish Pre-Accelerator Hackathon"
+  full_name: "TinyFish $2M Pre-Accelerator Hackathon — AI Agents on the Live Web"
+  organizer: "TinyFish / Mango Capital"
+  url: "https://www.hackerearth.com/challenges/hackathon/the-tiny-fish-hackathon-2026/"
+  deadline: "2026-03-29 18:29"
+  timezone: "UTC"
+  start_date: "2026-02-25"
+  end_date: "2026-03-29"
+  prize: "$5,000 + accelerator entry"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "hackerearth"
+  tags:
+    - agent
+    - web-automation
+    - startup
+  note: "Build AI agents on TinyFish Web Agent API; winners get Golden Ticket to $2M accelerator backed by Mango Capital"
 
 - id: cncf-mcp-agents-2026
   title: "CNCF MCP & AI Agents Hackathon"

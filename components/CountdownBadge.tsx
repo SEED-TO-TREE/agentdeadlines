@@ -26,7 +26,7 @@ export default function CountdownBadge({
   if (daysLeft < 0) {
     const daysAgo = Math.abs(daysLeft);
     return (
-      <span className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-mono font-bold bg-white/5 text-white/40 border border-white/10">
+      <span suppressHydrationWarning className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-mono font-bold bg-white/5 text-white/40 border border-white/10">
         Ended {daysAgo}d ago
       </span>
     );
@@ -34,7 +34,7 @@ export default function CountdownBadge({
 
   if (daysLeft === 0) {
     return (
-      <span className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-mono font-bold bg-red-500/20 text-red-400 border border-red-500/30 animate-pulse">
+      <span suppressHydrationWarning className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-mono font-bold bg-red-500/20 text-red-400 border border-red-500/30 animate-pulse">
         D-Day
       </span>
     );
@@ -42,7 +42,7 @@ export default function CountdownBadge({
 
   if (daysLeft <= 7) {
     return (
-      <span className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-mono font-bold bg-red-500/20 text-red-400 border border-red-500/30 animate-pulse">
+      <span suppressHydrationWarning className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-mono font-bold bg-red-500/20 text-red-400 border border-red-500/30 animate-pulse">
         D-{daysLeft}
       </span>
     );
@@ -50,14 +50,14 @@ export default function CountdownBadge({
 
   if (daysLeft <= 30) {
     return (
-      <span className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-mono font-bold bg-orange-500/20 text-orange-400 border border-orange-500/30">
+      <span suppressHydrationWarning className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-mono font-bold bg-orange-500/20 text-orange-400 border border-orange-500/30">
         D-{daysLeft}
       </span>
     );
   }
 
   return (
-    <span className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-mono font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+    <span suppressHydrationWarning className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-mono font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
       D-{daysLeft}
     </span>
   );
