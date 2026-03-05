@@ -5,13 +5,11 @@ import { ParsedEvent, Category, Format, Status } from "@/lib/types";
 import Header from "./Header";
 import FilterBar from "./FilterBar";
 import EventCard from "./EventCard";
+import { calcDaysLeft } from "@/lib/daysLeft";
 
 function recalcEvents(events: ParsedEvent[]): ParsedEvent[] {
-  const now = new Date();
   return events.map((e) => {
-    const deadlineDate = new Date(e.deadlineDate);
-    const diffMs = deadlineDate.getTime() - now.getTime();
-    const daysLeft = Math.ceil(diffMs / (1000 * 60 * 60 * 24));
+    const daysLeft = calcDaysLeft(e.deadlineDate);
     return { ...e, daysLeft, status: daysLeft >= 0 ? "upcoming" : "past" } as ParsedEvent;
   });
 }

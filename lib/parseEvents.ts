@@ -2,18 +2,16 @@ import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
 import { AgentEvent, ParsedEvent } from "./types";
+import { calcDaysLeft } from "./daysLeft";
 
 export function loadEvents(): ParsedEvent[] {
   const filePath = path.join(process.cwd(), "data", "events.yaml");
   const fileContents = fs.readFileSync(filePath, "utf8");
   const raw = yaml.load(fileContents) as AgentEvent[];
 
-  const now = new Date();
-
   return raw.map((event) => {
     const deadlineDate = parseDeadline(event.deadline, event.timezone);
-    const diffMs = deadlineDate.getTime() - now.getTime();
-    const daysLeft = Math.ceil(diffMs / (1000 * 60 * 60 * 24));
+    const daysLeft = calcDaysLeft(deadlineDate);
 
     return {
       ...event,

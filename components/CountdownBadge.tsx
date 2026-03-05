@@ -1,12 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
-function calcDaysLeft(deadlineDate: Date | string): number {
-  const now = new Date();
-  const diffMs = new Date(deadlineDate).getTime() - now.getTime();
-  return Math.ceil(diffMs / (1000 * 60 * 60 * 24));
-}
+import { calcDaysLeft } from "@/lib/daysLeft";
 
 interface CountdownBadgeProps {
   daysLeft: number;
