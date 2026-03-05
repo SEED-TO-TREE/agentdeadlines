@@ -1161,3 +1161,25 @@
     - IBM
     - enterprise
   note: "48-hour hackathon; build agentic AI with IBM watsonx Orchestrate"
+
+- id: orange-agent-jam-2026
+  title: "Orange Agent Jam"
+  full_name: "Orange Agent Jam 2026 — Autonomous AI Agent App Competition"
+  organizer: "Orange"
+  url: "https://orangeagentjam.com?utm_source=agentdeadlines&utm_medium=listing&utm_campaign=agent_jam_march"
+  deadline: "2026-03-15 23:59"
+  timezone: "UTC"
+  start_date: "2026-02-25"
+  end_date: "2026-03-15"
+  prize: "$5,000 total ($3,000 top prize)"
+  categories:
+    - hackathon
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - app
+    - usage-scoring
+    - web3
+  note: "AI agents build real apps and are scored by objective real-user credit consumption."
