@@ -10,12 +10,9 @@ export default function Header({ totalEvents, activeEvents, search, onSearchChan
     <header className="border-b border-white/10 bg-[#0a0a0f]/80 backdrop-blur-sm sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-4 py-5 flex items-center justify-between">
         <div>
-          <h1 className="text-2xl md:text-3xl font-bold tracking-tight">
+          <p className="text-2xl md:text-3xl font-bold tracking-tight" aria-hidden="true">
             <span className="text-white">Agent</span>
             <span className="text-[#00ff88]">Deadlines</span>
-          </h1>
-          <p className="text-white/50 text-sm mt-1">
-            Never miss an AI Agent hackathon or competition deadline
           </p>
         </div>
         <div className="flex items-center gap-4">
