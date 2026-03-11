@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   description:
     "Never miss an AI Agent hackathon or competition deadline. Track upcoming AI agent competitions, hackathons, and benchmark challenges in one place.",
   metadataBase: new URL(siteUrl),
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: "/icon.svg",
   },
