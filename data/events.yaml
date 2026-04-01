@@ -447,6 +447,27 @@
     - cloud-native
   note: "5 categories: MCP Starter, Secure & Govern MCP, Building Cool Agents, Agent Registry, Open Source Contributions"
 
+- id: vertex-swarm-challenge-2026
+  title: "Vertex Swarm Challenge"
+  full_name: "Vertex Swarm Challenge 2026 — Coordinating Robots, Drones, AI Agents & IoT Fleets"
+  organizer: "Vertex"
+  url: "https://dorahacks.io/hackathon/global-vertex-swarm-challenge"
+  deadline: "2026-04-06 09:00"
+  timezone: "UTC"
+  start_date: "2026-03-18"
+  end_date: "2026-04-06"
+  prize: "$25,000 + accelerator grants"
+  categories:
+    - competition
+  format: "online"
+  platform: "dorahacks"
+  tags:
+    - agent
+    - robotics
+    - swarm
+    - IoT
+  note: "Build the missing TCP/IP layer for robot swarms; C/Rust/ROS2 developers coordinate autonomous fleets beyond the cloud"
+
 - id: aimo-progress-prize-3
   title: "AIMO Progress Prize 3"
   full_name: "AI Mathematical Olympiad — Progress Prize 3"
@@ -488,6 +509,47 @@
     - Ethereum
   note: "In-person at Palace of Festivals, Cannes; AI agent and blockchain tracks"
 
+- id: lablab-arc-agentic-commerce-2026
+  title: "Agentic Commerce on Arc Hackathon"
+  full_name: "Lablab × Arc — Agentic Commerce Hackathon"
+  organizer: "Lablab.ai / Arc / Circle"
+  url: "https://lablab.ai/ai-hackathons/agentic-commerce-on-arc-hackathon"
+  deadline: "2026-04-25 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-04-20"
+  end_date: "2026-04-26"
+  prize: "TBA"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "lablab"
+  tags:
+    - agent
+    - commerce
+    - web3
+    - payments
+  note: "Build agentic economic apps using Circle Nanopayments on Arc (USDC); onsite build day in SF Apr 25, demos & awards Apr 26"
+
+- id: lablab-ai-bigdata-expo-2026
+  title: "AI & Big Data Expo Hackathon"
+  full_name: "Lablab × AI & Big Data Expo North America — Enterprise AI Hackathon"
+  organizer: "Lablab.ai / TechEx"
+  url: "https://lablab.ai/ai-hackathons/techex-intelligent-enterprise-solutions-hackathon"
+  deadline: "2026-05-19 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-05-11"
+  end_date: "2026-05-19"
+  prize: "TBA"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "lablab"
+  tags:
+    - agent
+    - enterprise
+    - automation
+  note: "5 tracks: AI & Automation, Robotics, Security & Trust, Connected Systems, Data & Intelligence; winners present on AI Developer Track at San Jose McEnery Convention Center"
+
 - id: ethglobal-newyork-2026
   title: "ETHGlobal New York"
   full_name: "ETHGlobal New York 2026 — AI + Web3 Hackathon"
@@ -507,6 +569,27 @@
     - web3
     - Ethereum
   note: "In-person ETHGlobal hackathon in New York City"
+
+- id: usaii-global-ai-hackathon-2026
+  title: "USAII Global AI Hackathon"
+  full_name: "USAII's Global AI Hackathon 2026 — AI for Good Student Competition"
+  organizer: "USAII (United States Artificial Intelligence Institute)"
+  url: "https://aihackathon.usaii.org/"
+  deadline: "2026-06-21 23:59"
+  timezone: "UTC"
+  start_date: "2026-06-14"
+  end_date: "2026-06-26"
+  prize: "$15,000+ + AI certification scholarships"
+  categories:
+    - hackathon
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - AI-for-good
+    - student
+  note: "3 tracks by level: High School (AI for Good), Undergrad (AI for Life/Learning/Work), Graduate (AI for Systems/Society); teams of 2–5; no-code/low-code welcome"
 
 - id: robocup-2026
   title: "RoboCup 2026 Incheon"
@@ -547,6 +630,26 @@
     - web3
     - Ethereum
   note: "In-person ETHGlobal hackathon in Lisbon, Portugal"
+
+- id: raise-summit-hackathon-2026
+  title: "RAISE Summit AI Hackathon"
+  full_name: "RAISE Summit 2026 — Global AI Hackathon at Le Carrousel du Louvre"
+  organizer: "RAISE Summit / Cerebral Valley"
+  url: "https://www.raisesummit.com/hackathon"
+  deadline: "2026-07-09 18:00"
+  timezone: "Europe/Paris"
+  start_date: "2026-07-08"
+  end_date: "2026-07-09"
+  prize: "€250,000+"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - agent
+    - startup
+    - enterprise
+  note: "24-hour build sprint at Le Carrousel du Louvre, Paris; 8,000+ applicants in 2025; live pitch competition; co-organized with Cerebral Valley"
 
 - id: aws-ai-league-2026
   title: "AWS AI League 2026"
