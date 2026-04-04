@@ -14,15 +14,34 @@ function buildJsonLd(events: ParsedEvent[]) {
     startDate: e.start_date,
     endDate: e.end_date,
     url: e.url,
+    image: "https://agentdeadlines.com/og-image.png",
+    eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode:
       e.format === "online"
         ? "https://schema.org/OnlineEventAttendanceMode"
         : e.format === "in-person"
           ? "https://schema.org/OfflineEventAttendanceMode"
           : "https://schema.org/MixedEventAttendanceMode",
+    location:
+      e.format === "online"
+        ? { "@type": "VirtualLocation", url: e.url }
+        : e.format === "in-person"
+          ? { "@type": "Place", name: "TBA", address: "TBA" }
+          : [
+              { "@type": "VirtualLocation", url: e.url },
+              { "@type": "Place", name: "TBA", address: "TBA" },
+            ],
     organizer: {
       "@type": "Organization",
       name: e.organizer,
+      url: e.url,
+    },
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+      url: e.url,
     },
   }));
 
