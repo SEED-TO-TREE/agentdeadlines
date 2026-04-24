@@ -127,11 +127,11 @@
   full_name: "Berkeley AgentX AgentBeats Competition — Build Benchmarks & AI Agents"
   organizer: "Berkeley RDI"
   url: "https://rdi.berkeley.edu/agentx-agentbeats.html"
-  deadline: "2026-04-15 23:59"
-  timezone: "UTC"
+  deadline: "2026-05-24 23:59"
+  timezone: "US/Pacific"
   start_date: "2026-03-01"
   end_date: "2026-06-30"
-  prize: "$1M+"
+  prize: "$1M+ in prizes & credits"
   categories:
     - competition
     - benchmark
@@ -141,7 +141,7 @@
     - agent
     - benchmark
     - LLM
-  note: "Two-phase: build benchmarks (Phase 1), then create agents (Phase 2)"
+  note: "Sprint 4 (General Purpose Agents grand finale) May 4–24; cash + credits from DeepMind, OpenAI, Lambda, AWS, HuggingFace, Nebius"
 
 - id: google-ai-for-science-2026
   title: "Google.org AI for Science"
@@ -731,6 +731,210 @@
     - LLM
     - recurring
   note: "New AI hackathons every 2-3 weeks, check site for latest"
+
+- id: ai-expo-hackathon-2026
+  title: "AI+ Expo Hackathon 2026"
+  full_name: "AI+ Expo Hackathon 2026 — National Security AI Engineering Competition"
+  organizer: "Special Competitive Studies Project (SCSP)"
+  url: "https://expo.scsp.ai/hackathon/"
+  deadline: "2026-04-26 23:59"
+  timezone: "US/Eastern"
+  start_date: "2026-04-25"
+  end_date: "2026-05-09"
+  prize: "$70,000+"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - national-security
+    - LLM
+  note: "Three-track national-security hackathon (Cloud Labs, Electric Grid, Wargaming) sponsored by OpenAI, Anthropic, Meta; build Apr 25–26 in SF/Boston/DC, finals May 9 at AI+ Expo Washington D.C."
+
+- id: kite-ai-global-hackathon-2026
+  title: "Kite AI Global Hackathon"
+  full_name: "Kite AI Global Hackathon 2026 — Powering the Agentic Economy"
+  organizer: "Kite AI / Encode Club / Coinbase Ventures"
+  url: "https://www.encodeclub.com/programmes/kites-hackathon-ai-agentic-economy"
+  deadline: "2026-04-26 23:59"
+  timezone: "UTC"
+  start_date: "2026-03-27"
+  end_date: "2026-04-26"
+  prize: "Prize pool TBA"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - web3
+    - payments
+  note: "Four-week remote hackathon to build autonomous AI agents on Kite (AI Payments Blockchain) across Agentic Commerce, Trading & Portfolio, and Novel tracks"
+
+- id: barn-challenge-icra-2026
+  title: "BARN Challenge 2026"
+  full_name: "5th Benchmark for Autonomous Robot Navigation (BARN) Challenge — ICRA 2026"
+  organizer: "George Mason University / IEEE ICRA"
+  url: "https://people.cs.gmu.edu/~xiao/Research/BARN_Challenge/BARN_Challenge26.html"
+  deadline: "2026-05-08 23:59"
+  timezone: "UTC"
+  start_date: "2026-03-15"
+  end_date: "2026-06-04"
+  prize: "Conference recognition + physical finals at ICRA"
+  categories:
+    - competition
+    - benchmark
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - robotics
+    - navigation
+  note: "Benchmark autonomous nav in highly constrained environments using a Clearpath Jackal with 2D LiDAR; sim submission May 8, physical finals June 3–4 at ICRA Vienna"
+
+- id: nsgym-aamas-2026
+  title: "NS-Gym Competition (AAMAS 2026)"
+  full_name: "Non-Stationary Reinforcement Learning Competition — AAMAS 2026"
+  organizer: "AAMAS 2026 / NS-Gym"
+  url: "https://nsgym.io/aamas2026_competition.html"
+  deadline: "2026-05-10 23:59"
+  timezone: "UTC"
+  start_date: "2026-02-05"
+  end_date: "2026-05-29"
+  prize: "Academic recognition"
+  categories:
+    - competition
+    - benchmark
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - reinforcement-learning
+    - multi-agent
+  note: "Non-stationary RL agent competition at AAMAS 2026; winners announced at the conference in Paphos, Cyprus (May 25–29)"
+
+- id: solana-frontier-hackathon-2026
+  title: "Solana Frontier Hackathon"
+  full_name: "Solana Frontier Hackathon 2026 — Colosseum"
+  organizer: "Solana Foundation / Colosseum / Superteam UAE"
+  url: "https://colosseum.com/frontier"
+  deadline: "2026-05-11 23:59"
+  timezone: "UTC"
+  start_date: "2026-04-06"
+  end_date: "2026-05-11"
+  prize: "$240,000+"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - web3
+    - Solana
+  note: "Five-week online Web3 hackathon spanning DeFi, infra, AI/crypto, and physical-world apps; Colosseum venture fund deploys $2.5M+ into selected winners"
+
+- id: berkeley-ai-hackathon-2026
+  title: "UC Berkeley AI Hackathon 2026"
+  full_name: "UC Berkeley AI Hackathon 2026 — Hosted by SkyDeck and Cal Hacks"
+  organizer: "Hackathons @ Berkeley"
+  url: "https://ai.hackberkeley.org/"
+  deadline: "2026-05-17 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-06-20"
+  end_date: "2026-06-21"
+  prize: "$100,000 in cash and tech prizes"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - agent
+    - student
+    - LLM
+  note: "Application deadline May 17 (regular); 24-hour in-person event at MLK Jr. Building, UC Berkeley with 1,300+ hackers and 300+ projects across four AI tracks"
+
+- id: lablab-ai-agent-olympics-2026
+  title: "AI Agent Olympics Hackathon"
+  full_name: "AI Agent Olympics Hackathon — Milan AI Week 2026"
+  organizer: "Lablab.ai / AI Week"
+  url: "https://lablab.ai/ai-hackathons/milan-ai-week-hackathon"
+  deadline: "2026-05-19 23:59"
+  timezone: "Europe/Rome"
+  start_date: "2026-05-13"
+  end_date: "2026-05-20"
+  prize: "$15,000"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "lablab"
+  tags:
+    - agent
+    - autonomous
+    - LLM
+  note: "Build the next generation of autonomous agents at AI Week, Europe's largest AI event; online build May 13–19, onsite build May 19 at Fiera Milano, demo & awards May 20"
+
+- id: mantle-turing-test-2026
+  title: "Mantle Turing Test Hackathon"
+  full_name: "Mantle Turing Test Hackathon 2026 — Phase 2: AI Awakening"
+  organizer: "Mantle / Tencent Cloud / Bybit / Byreal / BGA"
+  url: "https://dorahacks.io/hackathon/mantleturingtesthackathon2026"
+  deadline: "2026-06-15 15:59"
+  timezone: "UTC"
+  start_date: "2026-05-01"
+  end_date: "2026-06-15"
+  prize: "$100,000"
+  categories:
+    - hackathon
+    - benchmark
+  format: "online"
+  platform: "dorahacks"
+  tags:
+    - agent
+    - web3
+    - on-chain
+  note: "On-chain AI agent benchmarking with Human vs. AI mechanism across six tracks (AI Trading, AI Alpha & Data, AI DevTools, Agentic Wallets); Phase 2 follows Phase 1 ClawHack ($20K)"
+
+- id: embodied-ai-cvpr-2026
+  title: "Embodied AI Workshop Challenges"
+  full_name: "Embodied AI Workshop Challenges — CVPR 2026"
+  organizer: "Embodied AI Workshop / CVPR"
+  url: "https://embodied-ai.org/cvpr2026/"
+  deadline: "2026-06-15 23:59"
+  timezone: "UTC"
+  start_date: "2026-03-01"
+  end_date: "2026-06-15"
+  prize: "Cash prizes for first place (sponsored by Logical Robotics)"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - embodied
+    - robotics
+  note: "Three challenges at CVPR 2026 Embodied AI Workshop — ARNOLD (Language-Grounded Manipulation), ManiSkill-ViTac (Vision-Tactile Bimanual), ManipArena (Desktop/Mobile Manipulation)"
+
+- id: agents-without-masters-2026
+  title: "Agents Without Masters"
+  full_name: "Agents Without Masters Hackathon with NEAR AI"
+  organizer: "NEAR AI / DoraHacks"
+  url: "https://dorahacks.io/hackathon/agents-without-masters"
+  deadline: "2026-06-16 23:59"
+  timezone: "UTC"
+  start_date: "2026-06-15"
+  end_date: "2026-06-16"
+  prize: "$25,000"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "dorahacks"
+  tags:
+    - agent
+    - web3
+    - DeFAI
+  note: "24-hour AI x blockchain hackathon June 15–16 at w3.hub focused on shipping autonomous DeFAI agents on NEAR; quickstart templates and post-hackathon GTM support"
 
 # ============================================================
 # RECENTLY ENDED (early 2026)
