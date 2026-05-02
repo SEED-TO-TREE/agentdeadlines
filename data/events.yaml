@@ -936,6 +936,127 @@
     - DeFAI
   note: "24-hour AI x blockchain hackathon June 15–16 at w3.hub focused on shipping autonomous DeFAI agents on NEAR; quickstart templates and post-hackathon GTM support"
 
+- id: ethglobal-open-agents-2026
+  title: "ETHGlobal Open Agents"
+  full_name: "ETHGlobal Open Agents — Async AI Agent Hackathon"
+  organizer: "ETHGlobal"
+  url: "https://ethglobal.com/events/openagents"
+  deadline: "2026-05-06 23:59"
+  timezone: "UTC"
+  start_date: "2026-04-24"
+  end_date: "2026-05-06"
+  prize: "$50,000+"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "ethglobal"
+  tags:
+    - agent
+    - web3
+    - Ethereum
+  note: "Async online hackathon focused on AI agents, on-chain infrastructure, and agentic execution on Ethereum; tracks include agent framework/tooling and onchain execution"
+
+- id: gemma-4-good-hackathon-2026
+  title: "Gemma 4 Good Hackathon"
+  full_name: "Gemma 4 Good Hackathon — Kaggle × Google DeepMind"
+  organizer: "Kaggle / Google DeepMind"
+  url: "https://www.kaggle.com/competitions/gemma-4-good-hackathon"
+  deadline: "2026-05-18 23:59"
+  timezone: "UTC"
+  start_date: "2026-04-21"
+  end_date: "2026-05-18"
+  prize: "$200,000"
+  categories:
+    - hackathon
+    - competition
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - agent
+    - multimodal
+    - Gemma
+  note: "Use Gemma 4 open-source multimodal models with native function calling to solve health, education, and climate challenges; bonus $10K Unsloth prize for best fine-tuned model; working demo + public code + 3-minute video required"
+
+- id: amd-lablab-developer-2026
+  title: "AMD × Lablab.ai Developer Hackathon"
+  full_name: "AMD Developer Hackathon 2026 × Lablab.ai — AI Agents on AMD"
+  organizer: "AMD / Lablab.ai"
+  url: "https://lablab.ai/ai-hackathons/amd-developer"
+  deadline: "2026-05-19 23:59"
+  timezone: "UTC"
+  start_date: "2026-05-11"
+  end_date: "2026-05-19"
+  prize: "$21,500 cash + AMD Radeon AI PRO R9700 GPU"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "lablab"
+  tags:
+    - agent
+    - AMD
+    - GPU
+  note: "Build AI agents using AMD AI Developer Cloud, ROCm, and model APIs; $100 AMD cloud credits provided; onsite build day May 9–10 at MindsDB SF AI Collective, San Francisco"
+
+- id: google-cloud-rapid-agent-2026
+  title: "Google Cloud Rapid Agent Hackathon"
+  full_name: "Google Cloud Rapid Agent Hackathon 2026 — Build with Gemini + MCP"
+  organizer: "Google Cloud"
+  url: "https://rapid-agent.devpost.com/"
+  deadline: "2026-06-11 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-05-06"
+  end_date: "2026-06-11"
+  prize: "$60,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - MCP
+    - Google-Cloud
+  note: "Build a functional agent using Google Cloud Agent Builder and Gemini AI with mandatory MCP integration; 6 sponsor category prizes (Elastic, Arize, Dynatrace, GitLab, MongoDB, Fivetran)"
+
+- id: ethonline-2026
+  title: "ETHOnline 2026"
+  full_name: "ETHOnline 2026 — ETHGlobal Async Online Hackathon"
+  organizer: "ETHGlobal"
+  url: "https://ethglobal.com/events/ethonline2026"
+  deadline: "2026-09-16 23:59"
+  timezone: "UTC"
+  start_date: "2026-09-04"
+  end_date: "2026-09-16"
+  prize: "TBA"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "ethglobal"
+  tags:
+    - agent
+    - web3
+    - Ethereum
+  note: "ETHGlobal's async online hackathon for global builders; theme and prizes TBA"
+
+- id: ethglobal-mumbai-2026
+  title: "ETHGlobal Mumbai"
+  full_name: "ETHGlobal Mumbai 2026 — AI + Web3 Hackathon"
+  organizer: "ETHGlobal"
+  url: "https://ethglobal.com/events/mumbai2026"
+  deadline: "2026-11-08 18:00"
+  timezone: "Asia/Kolkata"
+  start_date: "2026-11-06"
+  end_date: "2026-11-08"
+  prize: "TBA"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "ethglobal"
+  tags:
+    - agent
+    - web3
+    - Ethereum
+  note: "36-hour Ethereum hackathon in Mumbai, India; ETHGlobal's new India location"
+
 # ============================================================
 # RECENTLY ENDED (early 2026)
 # ============================================================
