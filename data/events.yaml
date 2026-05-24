@@ -2,6 +2,190 @@
 # UPCOMING EVENTS (deadline after 2026-03-02)
 # ============================================================
 
+- id: agent-academy-hackathon-2026
+  title: "Agent Academy Hackathon"
+  full_name: "Microsoft Agent Academy Hackathon — Beginner Agent Builders"
+  organizer: "Microsoft"
+  url: "https://microsoft.github.io/agent-academy/events/hackathon/"
+  deadline: "2026-06-02 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-05-12"
+  end_date: "2026-06-02"
+  prize: "Microsoft swag + recognition"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "microsoft"
+  tags:
+    - agent
+    - beginner
+    - Azure
+  note: "Beginner-friendly hackathon for first-time agent builders showcasing core fundamentals of agent creation"
+
+- id: ms-agents-league-2026
+  title: "Agents League Hackathon"
+  full_name: "Microsoft Agents League Hackathon — Creative, Reasoning & Enterprise Agents"
+  organizer: "Microsoft"
+  url: "https://info.microsoft.com/Agents-League-Hackathon-Registration.html"
+  deadline: "2026-06-14 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-06-04"
+  end_date: "2026-06-14"
+  prize: "$55,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "microsoft"
+  tags:
+    - agent
+    - Azure
+    - reasoning
+  note: "Three tracks: Creative Apps, Reasoning Agents, Enterprise Agents; live coding battles + on-demand content"
+
+- id: ijcai-openclaw-2026
+  title: "OpenClaw Security Challenge"
+  full_name: "OpenClaw Security Attack and Defense Challenge @ IJCAI-ECAI 2026"
+  organizer: "IJCAI-ECAI 2026 AI Safety Workshop"
+  url: "https://ai-safety-workshop-ijcai2026.github.io/Track1.html"
+  deadline: "2026-06-12 23:59"
+  timezone: "UTC"
+  start_date: "2026-04-22"
+  end_date: "2026-06-12"
+  prize: "Competition awards (TBA)"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - security
+    - red-team
+  note: "Design attack strategies (prompt injection, tool manipulation) against AI agents in smart-home / e-commerce / enterprise simulations; hosted on Tianchi"
+
+- id: uipath-agenthack-2026
+  title: "UiPath AgentHack"
+  full_name: "UiPath AgentHack 2026 — Build the AI Agents of Tomorrow"
+  organizer: "UiPath"
+  url: "https://uipath-agenthack.devpost.com/"
+  deadline: "2026-06-29 23:45"
+  timezone: "US/Pacific"
+  start_date: "2026-05-15"
+  end_date: "2026-06-29"
+  prize: "$48,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - enterprise
+    - automation
+  note: "Three tracks (Maestro BPMN, agentic case management, agentic testing); finalists July 15, final event July 23"
+
+- id: ijcai-travel-planning-2026
+  title: "Travel Itinerary Planning Challenge"
+  full_name: "TPC@IJCAI 2026 — The 2nd Travel Itinerary Planning Challenge for AI Agents"
+  organizer: "Nanjing University & partners"
+  url: "https://chinatravel-competition.github.io/IJCAI2026/"
+  deadline: "2026-07-15 23:59"
+  timezone: "UTC"
+  start_date: "2026-05-31"
+  end_date: "2026-08-15"
+  prize: "Competition awards (TBA)"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - planning
+    - LLM
+  note: "Two tracks: Travel Planning + Agentic Skill Development; built on ChinaTravel benchmark with compositional constraint validation"
+
+- id: ijcai-carbench-2026
+  title: "CAR-bench Challenge"
+  full_name: "CAR-bench @ IJCAI-ECAI 2026 — Reliable LLM Agents Under Real-World Uncertainty"
+  organizer: "BMW & Augsburg University"
+  url: "https://car-bench.github.io/car-bench/"
+  deadline: "2026-07-19 23:59"
+  timezone: "UTC"
+  start_date: "2026-05-25"
+  end_date: "2026-07-19"
+  prize: "$5,000 Anthropic credits + Codex Pro subscriptions"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - benchmark
+    - voice
+  note: "Evaluate LLM agent reliability as automotive voice assistants; Open Track + Cerebras Fast-Reasoning Track sponsored by OpenAI"
+
+- id: slack-agent-builder-2026
+  title: "Slack Agent Builder Challenge"
+  full_name: "Slack Agent Builder Challenge — Ship Your First (or Fiftieth) Agent on Slack"
+  organizer: "Salesforce / Slack"
+  url: "https://slackhack.devpost.com/"
+  deadline: "2026-07-13 17:00"
+  timezone: "US/Pacific"
+  start_date: "2026-05-20"
+  end_date: "2026-07-13"
+  prize: "$42,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - MCP
+    - Slack
+  note: "Three tracks: New Slack Agent, Agents for Good, Agents for Orgs; winners get Dreamforce 2026 tickets + dev certifications"
+
+- id: kddcup-data-agents-2026
+  title: "KDD Cup 2026 — Data Agents Challenge"
+  full_name: "KDD Cup 2026 — Data Agents for Complex Data Analysis"
+  organizer: "HKUST DIAL Lab"
+  url: "https://dataagent.top/"
+  deadline: "2026-07-31 23:59"
+  timezone: "UTC"
+  start_date: "2026-04-01"
+  end_date: "2026-08-09"
+  prize: "~$30,000"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - data-science
+    - LLM
+  note: "Build autonomous agents that plan, query, reason across heterogeneous data (CSV/JSON/SQLite/text) for multi-step analytics; co-located with KDD 2026 Korea"
+
+- id: kddcup-tencent-unirec-2026
+  title: "KDD Cup 2026 — Tencent UNI-REC Challenge"
+  full_name: "KDD Cup 2026 — Tencent UNI-REC Challenge: Scalable Recommendation"
+  organizer: "Tencent & SIGKDD"
+  url: "https://algo.qq.com/"
+  deadline: "2026-07-31 23:59"
+  timezone: "UTC"
+  start_date: "2026-03-19"
+  end_date: "2026-08-09"
+  prize: "$885,000"
+  categories:
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - recommendation
+    - LLM
+    - machine-learning
+  note: "Academic + Industry tracks; 13,913 researchers / 5,746 teams / 52 countries in Round 1; co-located with KDD 2026 (Aug 9–13, Jeju Korea)"
+
 - id: gemini-live-agent-2026
   title: "Gemini Live Agent Challenge"
   full_name: "Gemini Live Agent Challenge — Redefining Interaction with Multimodal AI"
