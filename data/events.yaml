@@ -2,6 +2,128 @@
 # UPCOMING EVENTS (deadline after 2026-03-02)
 # ============================================================
 
+- id: build-with-gemini-xprize-2026
+  title: "Build with Gemini XPRIZE"
+  full_name: "Build with Gemini XPRIZE — AI-Operated Business Challenge"
+  organizer: "XPRIZE & Google Cloud"
+  url: "https://xprize.devpost.com/"
+  deadline: "2026-08-17 13:00"
+  timezone: "US/Pacific"
+  start_date: "2026-05-19"
+  end_date: "2026-08-17"
+  prize: "$2,000,000"
+  categories:
+    - hackathon
+    - competition
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - gemini
+    - autonomous
+  note: "Build a real revenue-generating business operated by AI agents using Google Cloud, over a 90-day window across five impact categories"
+
+- id: qwen-cloud-ai-hackathon-2026
+  title: "Qwen Cloud AI Agent Hackathon"
+  full_name: "Global AI Hackathon Series with Qwen Cloud"
+  organizer: "Alibaba Cloud (Qwen)"
+  url: "https://qwencloud-hackathon.devpost.com/"
+  deadline: "2026-07-09 14:00"
+  timezone: "US/Pacific"
+  start_date: "2026-05-26"
+  end_date: "2026-07-09"
+  prize: "$70,000+ (cash + cloud credits)"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - multi-agent
+    - LLM
+  note: "Build multi-agent systems and agentic workflows on Qwen Cloud across five tracks: MemoryAgent, AI Showrunner, Agent Society, Autopilot Agent, EdgeAgent"
+
+- id: ai-agent-security-tool-attacks-2026
+  title: "AI Agent Security Challenge"
+  full_name: "AI Agent Security — Multi-Step Tool Attacks"
+  organizer: "OpenAI, Google & IEEE"
+  url: "https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks"
+  deadline: "2026-09-01 23:59"
+  timezone: "UTC"
+  start_date: "2026-06-11"
+  end_date: "2026-09-08"
+  prize: "Working Note Awards $2,500 each + leaderboard prizes"
+  categories:
+    - benchmark
+    - competition
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - agent
+    - security
+    - red-team
+  note: "Develop attack algorithms that surface reproducible multi-step failures in tool-using LLM agents; co-hosted by OpenAI, Google and IEEE"
+
+- id: kaya-ai-iit-hackathon-2026
+  title: "Kaya AI IIT India Hackathon"
+  full_name: "Kaya AI IIT India Hackathon 2026"
+  organizer: "Kaya AI"
+  url: "https://kaya-ai-iit-hackathon-2026.devpost.com/"
+  deadline: "2026-07-11 09:15"
+  timezone: "Asia/Kolkata"
+  start_date: "2026-07-10"
+  end_date: "2026-07-11"
+  prize: "₹350,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - students
+    - enterprise
+  note: "Students-only hackathon (teams of 2-4) building agentic AI systems for the construction/infrastructure industry"
+
+- id: casper-agentic-buildathon-2026
+  title: "Casper Agentic Buildathon"
+  full_name: "Casper Agentic Buildathon 2026 — Qualification Round"
+  organizer: "Casper Association"
+  url: "https://dorahacks.io/hackathon/casper-agentic-buildathon"
+  deadline: "2026-07-01 23:59"
+  timezone: "UTC"
+  start_date: "2026-06-01"
+  end_date: "2026-07-01"
+  prize: "$150,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "dorahacks"
+  tags:
+    - agent
+    - web3
+    - micropayments
+  note: "Build AI-agent apps on Casper's x402 Facilitator (HTTP micropayments for agents) using the Casper AI Toolkit"
+
+- id: ai-genesis-2026
+  title: "AI Genesis 2026"
+  full_name: "AI Genesis 2026 (lablab.ai × /function1)"
+  organizer: "lablab.ai"
+  url: "https://lablab.ai/ai-hackathons/ai-genesis-2026"
+  deadline: "2026-11-02 23:59"
+  timezone: "UTC"
+  start_date: "2026-10-26"
+  end_date: "2026-11-03"
+  prize: "TBA"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "lablab"
+  tags:
+    - agent
+    - multi-agent
+    - recurring
+  note: "Global hybrid hackathon building real-world AI/agent projects on partner tech, culminating live at /function1 in Dubai"
+
 - id: agent-academy-hackathon-2026
   title: "Agent Academy Hackathon"
   full_name: "Microsoft Agent Academy Hackathon — Beginner Agent Builders"
