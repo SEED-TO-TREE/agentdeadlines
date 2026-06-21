@@ -1855,3 +1855,24 @@
     - trading
     - leaderboard
   note: "Write a Python agent that trades a $100k paper Nasdaq book. Forward-only live scoring, ranked by risk-adjusted return (Calmar). The winner's code trades a real $100k book."
+
+- id: builderr-speech-to-text-2026
+  title: "Builderr Speech-to-Text"
+  full_name: "Builderr — Local Hindi+English Speech-to-Text Challenge (Round 1)"
+  organizer: "Builderr"
+  url: "https://builderr.ai/speech-to-text"
+  deadline: "2026-08-02 23:59"
+  timezone: "UTC"
+  start_date: "2026-06-18"
+  end_date: "2026-08-02"
+  prize: "$500"
+  categories:
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - speech-to-text
+    - routing
+    - benchmark
+  note: "Build a local, offline Hindi+English dictation system on a laptop. The winning approach is an agentic pipeline — a fast draft recognizer plus a router that escalates risky code-switched (Hinglish) audio to a heavier finalizer — scored on accuracy and dictation feel (final text within ~2s)."
