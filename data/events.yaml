@@ -1835,3 +1835,23 @@
     - usage-scoring
     - web3
   note: "AI agents build real apps and are scored by objective real-user credit consumption."
+
+- id: builderr-trading-agents-2026
+  title: "Builderr Trading Agents"
+  full_name: "Builderr — Trading Agent Challenge (Round 1)"
+  organizer: "Builderr"
+  url: "https://builderr.ai/trading-v0"
+  deadline: "2026-06-29 23:59"
+  timezone: "UTC"
+  start_date: "2026-06-02"
+  end_date: "2026-07-02"
+  prize: "$2,000"
+  categories:
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - trading
+    - leaderboard
+  note: "Write a Python agent that trades a $100k paper Nasdaq book. Forward-only live scoring, ranked by risk-adjusted return (Calmar). The winner's code trades a real $100k book."
