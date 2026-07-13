@@ -2,6 +2,128 @@
 # UPCOMING EVENTS (deadline after 2026-03-02)
 # ============================================================
 
+- id: datahub-agent-hackathon-2026
+  title: "Build with DataHub Agent Hackathon"
+  full_name: "Build with DataHub: The Agent Hackathon"
+  organizer: "DataHub (Acryl Data)"
+  url: "https://datahub.devpost.com/"
+  deadline: "2026-08-10 17:00"
+  timezone: "US/Eastern"
+  start_date: "2026-07-06"
+  end_date: "2026-08-10"
+  prize: "$20,500"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - mcp
+    - data
+  note: "Build context-aware AI agents on DataHub's open-source metadata/context platform and MCP server across four tracks"
+
+- id: ai-agent-builder-series-2026
+  title: "AI Agent Builder Series"
+  full_name: "AI Agent Builder Series 2026"
+  organizer: "AI House × Google for Developers"
+  url: "https://www.aihouze.xyz/google-hackathon"
+  deadline: "2026-08-05 23:59"
+  timezone: "Asia/Kolkata"
+  start_date: "2026-06-21"
+  end_date: "2026-08-08"
+  prize: "Google Bengaluru finale seat + merch (non-cash)"
+  categories:
+    - hackathon
+    - competition
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - gemini
+    - adk
+  note: "Multi-stage national leaderboard competition building agents on Google's AI stack (Gemini, ADK, Vertex AI, Agent Engine), with a Grand Finale at Google Office Bengaluru"
+
+- id: nandahack-agentic-ai-2026
+  title: "NANDAHack Agentic AI Hackathon"
+  full_name: "NANDAHack: Agentic AI Hackathon"
+  organizer: "HCLTech × MIT Media Lab"
+  url: "https://nandahack.media.mit.edu/"
+  deadline: "2026-07-10 12:00"
+  timezone: "US/Eastern"
+  start_date: "2026-06-20"
+  end_date: "2026-07-11"
+  prize: "Awards at MIT Media Lab finale"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - multi-agent
+    - agentic-web
+  note: "Build an agent-callable web service plus SKILL.md in the NANDA decentralized agent arena, judged by a stock agent using only your SKILL.md"
+
+- id: behavior-challenge-2026
+  title: "BEHAVIOR Challenge 2026"
+  full_name: "2026 BEHAVIOR Challenge — Embodied AI Household Tasks"
+  organizer: "Stanford Vision and Learning Lab"
+  url: "https://behavior.stanford.edu/challenge/index.html"
+  deadline: "2026-10-16 23:59"
+  timezone: "UTC"
+  start_date: "2026-07-02"
+  end_date: "2026-10-16"
+  prize: "$11,000"
+  categories:
+    - benchmark
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - robotics
+    - embodied
+    - benchmark
+  note: "Embodied agents solve 100 full-length household tasks requiring long-horizon reasoning, navigation, and bimanual manipulation in simulation"
+
+- id: croo-ai-agent-hackathon-2026
+  title: "CROO AI Agent Hackathon"
+  full_name: "CROO AI Agent Hackathon — 10K Prize Pool"
+  organizer: "CROO Network"
+  url: "https://dorahacks.io/hackathon/croo-hackathon"
+  deadline: "2026-07-09 23:59"
+  timezone: "UTC"
+  start_date: "2026-06-09"
+  end_date: "2026-07-11"
+  prize: "$10,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "dorahacks"
+  tags:
+    - agent
+    - web3
+    - agent-commerce
+  note: "30-day sprint to ship a paid, callable AI agent on the CROO agent-commerce protocol across six tracks"
+
+- id: keeperhub-agents-onchain-2026
+  title: "KeeperHub Agents Onchain Hackathon"
+  full_name: "KeeperHub — Agents Onchain Hackathon"
+  organizer: "KeeperHub"
+  url: "https://dorahacks.io/hackathon/agents-onchain/detail"
+  deadline: "2026-08-13 12:00"
+  timezone: "Europe/Berlin"
+  start_date: "2026-07-27"
+  end_date: "2026-08-13"
+  prize: "Grand Prize + $1,000 Best Onboarding UX bounty"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "dorahacks"
+  tags:
+    - agent
+    - web3
+    - onchain
+  note: "Ship a working agent that executes onchain through KeeperHub using any framework (ElizaOS, CrewAI, LangChain, etc.)"
+
 - id: build-with-gemini-xprize-2026
   title: "Build with Gemini XPRIZE"
   full_name: "Build with Gemini XPRIZE — AI-Operated Business Challenge"
