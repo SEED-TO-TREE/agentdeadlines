@@ -2,6 +2,26 @@
 # UPCOMING EVENTS (deadline after 2026-03-02)
 # ============================================================
 
+- id: mit-sloan-ssac-2027
+  title: "MIT Sloan SSAC 2027 Research Competition"
+  full_name: "MIT Sloan Sports Analytics Conference 2027 — Research Paper Competition"
+  organizer: "MIT Sloan Sports Analytics Conference"
+  url: "https://www.sloansportsconference.com/research-paper-competition"
+  deadline: "2026-10-01 23:59"
+  timezone: "US/Eastern"
+  start_date: "2026-08-01"
+  end_date: "2027-03-01"
+  prize: "Present at SSAC27 + Best Poster award"
+  categories:
+    - competition
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - sports
+    - analytics
+    - research
+  note: "Sports-analytics research paper competition; abstracts due Oct 1 2026 (full paper Dec 4 for invited authors), all submissions must be open-source with a public code repo, finalists present at SSAC27 in March 2027"
+
 - id: openai-build-week-2026
   title: "OpenAI Build Week"
   full_name: "OpenAI Build Week — A Global Week of Building with Codex"
