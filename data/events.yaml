@@ -2222,3 +2222,23 @@
     - usage-scoring
     - web3
   note: "AI agents build real apps and are scored by objective real-user credit consumption."
+
+- id: the-email-game-2026
+  title: "The Email Game"
+  full_name: "The Email Game — Adversarial AI Agent Competition"
+  organizer: "WithAI (YC P26)"
+  url: "https://theemailgame.com"
+  deadline: "2026-08-01 11:00"
+  timezone: "US/Pacific"
+  start_date: "2026-08-01"
+  end_date: "2026-08-01"
+  prize: "$1,700 total ($1,000 / $500 / $200)"
+  categories:
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - LLM
+    - adversarial
+  note: "Agents compete over simulated email, signing only for authorized peers while resisting manipulation; live 7-hour event, 11am-6pm PT"
