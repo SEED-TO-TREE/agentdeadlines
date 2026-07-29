@@ -2,6 +2,393 @@
 # UPCOMING EVENTS (deadline after 2026-03-02)
 # ============================================================
 
+- id: mit-sloan-ssac-2027
+  title: "MIT Sloan SSAC 2027 Research Competition"
+  full_name: "MIT Sloan Sports Analytics Conference 2027 — Research Paper Competition"
+  organizer: "MIT Sloan Sports Analytics Conference"
+  url: "https://www.sloansportsconference.com/research-paper-competition"
+  deadline: "2026-10-01 23:59"
+  timezone: "US/Eastern"
+  start_date: "2026-08-01"
+  end_date: "2027-03-01"
+  prize: "Present at SSAC27 + Best Poster award"
+  categories:
+    - competition
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - sports
+    - analytics
+    - research
+  note: "Sports-analytics research paper competition; abstracts due Oct 1 2026 (full paper Dec 4 for invited authors), all submissions must be open-source with a public code repo, finalists present at SSAC27 in March 2027"
+
+- id: openai-build-week-2026
+  title: "OpenAI Build Week"
+  full_name: "OpenAI Build Week — A Global Week of Building with Codex"
+  organizer: "OpenAI"
+  url: "https://openai.devpost.com/"
+  deadline: "2026-07-21 17:00"
+  timezone: "US/Pacific"
+  start_date: "2026-07-09"
+  end_date: "2026-07-21"
+  prize: "$100,000 ($15,000 per category)"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - codex
+    - developer-tools
+  note: "Global virtual hackathon building apps and agents with Codex and GPT-5.6 across four themed tracks"
+
+- id: pokemon-tcg-ai-battle-2026
+  title: "Pokémon TCG AI Battle Challenge"
+  full_name: "The Pokémon Company — PTCG AI Battle Challenge (Simulation)"
+  organizer: "The Pokémon Company"
+  url: "https://www.kaggle.com/competitions/pokemon-tcg-ai-battle"
+  deadline: "2026-08-16 23:59"
+  timezone: "UTC"
+  start_date: "2026-06-16"
+  end_date: "2026-08-16"
+  prize: "$300,000+ total pool"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - agent
+    - game
+    - reinforcement-learning
+  note: "Build AI agents that play the Pokémon Trading Card Game; companion Strategy track closes 2026-09-13 with a live finals tournament in Japan"
+
+- id: opensearch-agent-skills-2026
+  title: "OpenSearch Agent Skills Hackathon"
+  full_name: "OpenSearch Agent Skills Hackathon"
+  organizer: "OpenSearch Project (Linux Foundation)"
+  url: "https://opensearch.org/blog/code-that-ships-the-opensearch-agent-skills-hackathon/"
+  deadline: "2026-08-17 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-07-15"
+  end_date: "2026-08-17"
+  prize: "$5,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - agent-skills
+    - search
+  note: "Build agentic AI skills for OpenSearch across search, observability, and migration; US residents only for this edition"
+
+- id: cockroachdb-agentic-memory-2026
+  title: "CockroachDB × AWS Agentic Memory"
+  full_name: "CockroachDB × AWS Hackathon — Build with Agentic Memory"
+  organizer: "Cockroach Labs (with AWS)"
+  url: "https://cockroachdb-ai.devpost.com/"
+  deadline: "2026-08-18 17:00"
+  timezone: "US/Eastern"
+  start_date: "2026-07-14"
+  end_date: "2026-08-18"
+  prize: "$8,750"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - agentic-memory
+    - database
+  note: "Build agentic apps using CockroachDB as a persistent, globally-scalable memory layer for autonomous agents on AWS"
+
+- id: eccv-wearable-ai-challenges-2026
+  title: "Wearable AI Challenges"
+  full_name: "Wearable AI Workshop @ ECCV 2026 — Grand Challenges"
+  organizer: "Meta Reality Labs"
+  url: "https://wearable-ai-workshop.github.io/"
+  deadline: "2026-08-15 23:59"
+  timezone: "UTC"
+  start_date: "2026-07-01"
+  end_date: "2026-08-15"
+  prize: "$21,000"
+  categories:
+    - benchmark
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - wearable
+    - egocentric
+  note: "Proactive AI assistant on egocentric/wearable video: predict when to interrupt, hold multi-turn streaming conversations, and answer long-video questions (deadlines Anywhere-on-Earth)"
+
+- id: wear-challenge-2026
+  title: "WEAR Dataset Challenge"
+  full_name: "3rd WEAR Dataset Challenge — Human Activity Recognition (HASCA @ UbiComp/ISWC 2026)"
+  organizer: "HASCA Workshop (University of Bonn)"
+  url: "https://mariusbock.github.io/wear/challenge.html"
+  deadline: "2026-07-05 09:00"
+  timezone: "UTC"
+  start_date: "2026-04-13"
+  end_date: "2026-07-05"
+  prize: "€300 / €150 / €75"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - wearable
+    - activity-recognition
+    - imu
+  note: "Fuse a single inertial (IMU) sensor with egocentric camera features for wearable human activity recognition; prize requires a published technical report (deadline Anywhere-on-Earth)"
+
+- id: datahub-agent-hackathon-2026
+  title: "Build with DataHub Agent Hackathon"
+  full_name: "Build with DataHub: The Agent Hackathon"
+  organizer: "DataHub (Acryl Data)"
+  url: "https://datahub.devpost.com/"
+  deadline: "2026-08-10 17:00"
+  timezone: "US/Eastern"
+  start_date: "2026-07-06"
+  end_date: "2026-08-10"
+  prize: "$20,500"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - mcp
+    - data
+  note: "Build context-aware AI agents on DataHub's open-source metadata/context platform and MCP server across four tracks"
+
+- id: ai-agent-builder-series-2026
+  title: "AI Agent Builder Series"
+  full_name: "AI Agent Builder Series 2026"
+  organizer: "AI House × Google for Developers"
+  url: "https://www.aihouze.xyz/google-hackathon"
+  deadline: "2026-08-05 23:59"
+  timezone: "Asia/Kolkata"
+  start_date: "2026-06-21"
+  end_date: "2026-08-08"
+  prize: "Google Bengaluru finale seat + merch (non-cash)"
+  categories:
+    - hackathon
+    - competition
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - gemini
+    - adk
+  note: "Multi-stage national leaderboard competition building agents on Google's AI stack (Gemini, ADK, Vertex AI, Agent Engine), with a Grand Finale at Google Office Bengaluru"
+
+- id: nandahack-agentic-ai-2026
+  title: "NANDAHack Agentic AI Hackathon"
+  full_name: "NANDAHack: Agentic AI Hackathon"
+  organizer: "HCLTech × MIT Media Lab"
+  url: "https://nandahack.media.mit.edu/"
+  deadline: "2026-07-10 12:00"
+  timezone: "US/Eastern"
+  start_date: "2026-06-20"
+  end_date: "2026-07-11"
+  prize: "Awards at MIT Media Lab finale"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - multi-agent
+    - agentic-web
+  note: "Build an agent-callable web service plus SKILL.md in the NANDA decentralized agent arena, judged by a stock agent using only your SKILL.md"
+
+- id: behavior-challenge-2026
+  title: "BEHAVIOR Challenge 2026"
+  full_name: "2026 BEHAVIOR Challenge — Embodied AI Household Tasks"
+  organizer: "Stanford Vision and Learning Lab"
+  url: "https://behavior.stanford.edu/challenge/index.html"
+  deadline: "2026-10-16 23:59"
+  timezone: "UTC"
+  start_date: "2026-07-02"
+  end_date: "2026-10-16"
+  prize: "$11,000"
+  categories:
+    - benchmark
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - robotics
+    - embodied
+    - benchmark
+  note: "Embodied agents solve 100 full-length household tasks requiring long-horizon reasoning, navigation, and bimanual manipulation in simulation"
+
+- id: croo-ai-agent-hackathon-2026
+  title: "CROO AI Agent Hackathon"
+  full_name: "CROO AI Agent Hackathon — 10K Prize Pool"
+  organizer: "CROO Network"
+  url: "https://dorahacks.io/hackathon/croo-hackathon"
+  deadline: "2026-07-09 23:59"
+  timezone: "UTC"
+  start_date: "2026-06-09"
+  end_date: "2026-07-11"
+  prize: "$10,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "dorahacks"
+  tags:
+    - agent
+    - web3
+    - agent-commerce
+  note: "30-day sprint to ship a paid, callable AI agent on the CROO agent-commerce protocol across six tracks"
+
+- id: keeperhub-agents-onchain-2026
+  title: "KeeperHub Agents Onchain Hackathon"
+  full_name: "KeeperHub — Agents Onchain Hackathon"
+  organizer: "KeeperHub"
+  url: "https://dorahacks.io/hackathon/agents-onchain/detail"
+  deadline: "2026-08-13 12:00"
+  timezone: "Europe/Berlin"
+  start_date: "2026-07-27"
+  end_date: "2026-08-13"
+  prize: "Grand Prize + $1,000 Best Onboarding UX bounty"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "dorahacks"
+  tags:
+    - agent
+    - web3
+    - onchain
+  note: "Ship a working agent that executes onchain through KeeperHub using any framework (ElizaOS, CrewAI, LangChain, etc.)"
+
+- id: build-with-gemini-xprize-2026
+  title: "Build with Gemini XPRIZE"
+  full_name: "Build with Gemini XPRIZE — AI-Operated Business Challenge"
+  organizer: "XPRIZE & Google Cloud"
+  url: "https://xprize.devpost.com/"
+  deadline: "2026-08-17 13:00"
+  timezone: "US/Pacific"
+  start_date: "2026-05-19"
+  end_date: "2026-08-17"
+  prize: "$2,000,000"
+  categories:
+    - hackathon
+    - competition
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - gemini
+    - autonomous
+  note: "Build a real revenue-generating business operated by AI agents using Google Cloud, over a 90-day window across five impact categories"
+
+- id: qwen-cloud-ai-hackathon-2026
+  title: "Qwen Cloud AI Agent Hackathon"
+  full_name: "Global AI Hackathon Series with Qwen Cloud"
+  organizer: "Alibaba Cloud (Qwen)"
+  url: "https://qwencloud-hackathon.devpost.com/"
+  deadline: "2026-07-09 14:00"
+  timezone: "US/Pacific"
+  start_date: "2026-05-26"
+  end_date: "2026-07-09"
+  prize: "$70,000+ (cash + cloud credits)"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - multi-agent
+    - LLM
+  note: "Build multi-agent systems and agentic workflows on Qwen Cloud across five tracks: MemoryAgent, AI Showrunner, Agent Society, Autopilot Agent, EdgeAgent"
+
+- id: ai-agent-security-tool-attacks-2026
+  title: "AI Agent Security Challenge"
+  full_name: "AI Agent Security — Multi-Step Tool Attacks"
+  organizer: "OpenAI, Google & IEEE"
+  url: "https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks"
+  deadline: "2026-09-01 23:59"
+  timezone: "UTC"
+  start_date: "2026-06-11"
+  end_date: "2026-09-08"
+  prize: "Working Note Awards $2,500 each + leaderboard prizes"
+  categories:
+    - benchmark
+    - competition
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - agent
+    - security
+    - red-team
+  note: "Develop attack algorithms that surface reproducible multi-step failures in tool-using LLM agents; co-hosted by OpenAI, Google and IEEE"
+
+- id: kaya-ai-iit-hackathon-2026
+  title: "Kaya AI IIT India Hackathon"
+  full_name: "Kaya AI IIT India Hackathon 2026"
+  organizer: "Kaya AI"
+  url: "https://kaya-ai-iit-hackathon-2026.devpost.com/"
+  deadline: "2026-07-11 09:15"
+  timezone: "Asia/Kolkata"
+  start_date: "2026-07-10"
+  end_date: "2026-07-11"
+  prize: "₹350,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - students
+    - enterprise
+  note: "Students-only hackathon (teams of 2-4) building agentic AI systems for the construction/infrastructure industry"
+
+- id: casper-agentic-buildathon-2026
+  title: "Casper Agentic Buildathon"
+  full_name: "Casper Agentic Buildathon 2026 — Qualification Round"
+  organizer: "Casper Association"
+  url: "https://dorahacks.io/hackathon/casper-agentic-buildathon"
+  deadline: "2026-07-01 23:59"
+  timezone: "UTC"
+  start_date: "2026-06-01"
+  end_date: "2026-07-01"
+  prize: "$150,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "dorahacks"
+  tags:
+    - agent
+    - web3
+    - micropayments
+  note: "Build AI-agent apps on Casper's x402 Facilitator (HTTP micropayments for agents) using the Casper AI Toolkit"
+
+- id: ai-genesis-2026
+  title: "AI Genesis 2026"
+  full_name: "AI Genesis 2026 (lablab.ai × /function1)"
+  organizer: "lablab.ai"
+  url: "https://lablab.ai/ai-hackathons/ai-genesis-2026"
+  deadline: "2026-11-02 23:59"
+  timezone: "UTC"
+  start_date: "2026-10-26"
+  end_date: "2026-11-03"
+  prize: "TBA"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "lablab"
+  tags:
+    - agent
+    - multi-agent
+    - recurring
+  note: "Global hybrid hackathon building real-world AI/agent projects on partner tech, culminating live at /function1 in Dubai"
+
 - id: agent-academy-hackathon-2026
   title: "Agent Academy Hackathon"
   full_name: "Microsoft Agent Academy Hackathon — Beginner Agent Builders"
@@ -1835,6 +2222,26 @@
     - usage-scoring
     - web3
   note: "AI agents build real apps and are scored by objective real-user credit consumption."
+
+- id: the-email-game-2026
+  title: "The Email Game"
+  full_name: "The Email Game — Adversarial AI Agent Competition"
+  organizer: "WithAI (YC P26)"
+  url: "https://theemailgame.com"
+  deadline: "2026-08-01 11:00"
+  timezone: "US/Pacific"
+  start_date: "2026-08-01"
+  end_date: "2026-08-01"
+  prize: "$1,700 total ($1,000 / $500 / $200)"
+  categories:
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - LLM
+    - adversarial
+  note: "Agents compete over simulated email, signing only for authorized peers while resisting manipulation; live 7-hour event, 11am-6pm PT"
 
 - id: builderr-trading-agents-2026
   title: "Builderr Trading Agents"
