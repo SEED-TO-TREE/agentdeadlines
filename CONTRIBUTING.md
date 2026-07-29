@@ -36,10 +36,15 @@ Add your event at the end of the file following this schema:
   note: "Brief description"          # One-liner about the event
 ```
 
+**Indentation matters.** `- id:` starts at column 0 with no leading spaces; every other key is indented exactly 2 spaces. An extra level of indentation makes the whole file fail to parse, which breaks the build for every event — not just yours.
+
+**Ignore the section comments.** `data/events.yaml` has `UPCOMING EVENTS` / `RECENTLY ENDED` / `PAST EVENTS` banners left over from the initial import. They are cosmetic and no longer track anything — the site sorts by `deadline` at build time and splits upcoming vs. past on its own. Always append to the very end of the file, whatever banner happens to be above it.
+
 ### 3. Validate
 
 ```bash
 pnpm install
+pnpm build   # must succeed — catches YAML syntax errors
 pnpm dev
 ```
 
@@ -78,3 +83,13 @@ Check that your event appears correctly at [http://localhost:3000](http://localh
 - Use UTC timezone when possible; otherwise specify the correct timezone
 - Keep notes concise (one sentence)
 - Do not modify existing events unless correcting errors
+- Do not delete events whose deadline has passed — they move to the past-events list automatically
+- `id` must be unique across the whole file
+
+## For Maintainers
+
+Open PRs are reviewed at least weekly. When merging an event PR:
+
+- Confirm `pnpm build` passes on the merged result — a YAML error here takes the whole site down
+- Check the `id` is not already present in `data/events.yaml`
+- Prefer squash merge, keeping the `data: add <Event Name>` subject
