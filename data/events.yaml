@@ -2283,3 +2283,187 @@
     - routing
     - benchmark
   note: "Build a local, offline Hindi+English dictation system on a laptop. The winning approach is an agentic pipeline — a fast draft recognizer plus a router that escalates risky code-switched (Hinglish) audio to a heavier finalizer — scored on accuracy and dictation feel (final text within ~2s)."
+
+- id: the-great-agent-hackathon-2026
+  title: "The Great Agent Hackathon"
+  full_name: "The Great Agent Hackathon — Build AI Agents for the Enterprise"
+  organizer: "Women in Product India"
+  url: "https://the-great-agent-hackathon.devpost.com/"
+  deadline: "2026-08-25 23:45"
+  timezone: "Asia/Kolkata"
+  start_date: "2026-08-04"
+  end_date: "2026-09-19"
+  prize: "₹100,000+"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "devpost"
+  tags:
+    - agent
+    - enterprise
+    - product
+  note: "Online qualification round (Figma prototype or working demo plus a short video) across three enterprise problem tracks; shortlisted teams of two fly to Bangalore for a 24-hour overnight build at TGPF 2026."
+
+- id: all-things-agentic-2026
+  title: "All Things Agentic"
+  full_name: "All Things Agentic Hackathon — Ready, Set, Agent!"
+  organizer: "Google Cloud"
+  url: "https://allthingsagentichackathon.devpost.com/"
+  deadline: "2026-08-31 17:00"
+  timezone: "US/Pacific"
+  start_date: "2026-08-04"
+  end_date: "2026-08-31"
+  prize: "$180,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - gemini
+    - async
+  note: "Build agents that run in the background on Gemini and Google Cloud — chewing through massive datasets and automating long-running workflows asynchronously rather than turn-by-turn."
+
+- id: agentic-cinema-2026
+  title: "Agentic Cinema"
+  full_name: "Agentic Cinema: The Blockbuster Hackathon"
+  organizer: "Google Cloud"
+  url: "https://agentic-cinema.devpost.com/"
+  deadline: "2026-09-09 14:00"
+  timezone: "US/Pacific"
+  start_date: "2026-07-27"
+  end_date: "2026-09-09"
+  prize: "$75,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - media
+    - MCP
+  note: "Build a working agent on Gemini and Google Cloud Agent Builder that wires a partner product or MCP server into a real media and entertainment workflow."
+
+- id: agents-for-humans-2026
+  title: "Agents for Humans"
+  full_name: "Agents for Humans Hackathon — Strands Agents SDK"
+  organizer: "AWS"
+  url: "https://agentsforhumans.devpost.com/"
+  deadline: "2026-09-14 17:00"
+  timezone: "US/Pacific"
+  start_date: "2026-08-10"
+  end_date: "2026-09-14"
+  prize: "$40,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - AWS
+    - automation
+  note: "Build an agent with the Strands Agents SDK that takes over routine, repetitive work in the background."
+
+- id: ai-builders-hackathon-2026
+  title: "AI Builders Hackathon"
+  full_name: "AI Builders Hackathon 2026 — Building the Future of Intelligent Systems"
+  organizer: "Open Source Software Community"
+  url: "https://ai-builders-hackathon-2026.devpost.com/"
+  deadline: "2026-09-15 23:59"
+  timezone: "UTC"
+  start_date: "2026-08-21"
+  end_date: "2026-09-20"
+  prize: "$33,900"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - LLM
+    - students
+  note: "Student-only hackathon asking for shipped AI products rather than demos — judging runs September 16-20."
+
+- id: roco-spring-2026
+  title: "RoCo-Spring"
+  full_name: "RoCo-Spring: The Robust Correspondence Challenge (NeurIPS 2026)"
+  organizer: "NeurIPS 2026 Competition Track"
+  url: "https://roco-spring.github.io/"
+  deadline: "2026-09-30 23:59"
+  timezone: "UTC"
+  start_date: "2026-07-13"
+  end_date: "2026-12-13"
+  prize: "TBD"
+  categories:
+    - competition
+    - benchmark
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - embodied-AI
+    - perception
+    - robustness
+  note: "Four tracks — optical flow, stereo matching, scene flow, and an open exploration track — measuring dense correspondence under realistic distribution shifts for embodied perception stacks."
+
+- id: agenthon-2026
+  title: "Agenthon 2026"
+  full_name: "Agenthon 2026 — Verifiable AI for Quantitative Finance (NeurIPS 2026)"
+  organizer: "Society of Quantitative Analysts & CEWIT, Stony Brook University"
+  url: "https://www.agenthon.net/"
+  deadline: "2026-10-12 23:59"
+  timezone: "UTC"
+  start_date: "2026-08-17"
+  end_date: "2026-12-13"
+  prize: "TBD"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - finance
+    - verification
+  note: "Teams of one to three ship Docker agents across four quant-finance tracks — coding, time-series forecasting, market simulation, and tabular prediction — scored through automated verification gates; registration closes September 28."
+
+- id: aimo-interpretability-2026
+  title: "AIMO Interpretability"
+  full_name: "AIMO Interpretability Challenge at NeurIPS 2026"
+  organizer: "Fields Model Initiative"
+  url: "https://aimo-interp.github.io/"
+  deadline: "2026-11-01 23:59"
+  timezone: "UTC"
+  start_date: "2026-08-15"
+  end_date: "2026-12-13"
+  prize: "$12,500"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "independent"
+  tags:
+    - interpretability
+    - LLM
+    - reasoning
+  note: "Submit a Codabench system that decides whether a frontier model solved an unseen olympiad problem robustly or got there by spurious reasoning."
+
+- id: steerability-challenge-2026
+  title: "Steerability Challenge"
+  full_name: "The Steerability Challenge (NeurIPS 2026)"
+  organizer: "IBM Research"
+  url: "https://steerability.github.io/competition/"
+  deadline: "2026-11-21 23:59"
+  timezone: "UTC"
+  start_date: "2026-08-29"
+  end_date: "2026-12-13"
+  prize: "Cash prizes (1st-3rd)"
+  categories:
+    - competition
+    - benchmark
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - LLM
+    - alignment
+    - steering
+  note: "Design steering pipelines in the standardized .spipe format that cut model sycophancy without eroding general capability; deadline is anywhere-on-earth and winners present at the NeurIPS workshop in Paris."
