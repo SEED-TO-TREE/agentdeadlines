@@ -2467,3 +2467,204 @@
     - alignment
     - steering
   note: "Design steering pipelines in the standardized .spipe format that cut model sycophancy without eroding general capability; deadline is anywhere-on-earth and winners present at the NeurIPS workshop in Paris."
+
+- id: crowdstrike-agents-of-chaos-2026
+  title: "Agents of Chaos"
+  full_name: "AI Unlocked: Agents of Chaos - AI Security Challenge"
+  organizer: "CrowdStrike & AWS"
+  url: "https://www.crowdstrike.com/en-us/platform/falcon-aidr-ai-detection-and-response/agents-of-chaos/"
+  deadline: "2026-09-29 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-08-31"
+  end_date: "2026-09-29"
+  prize: "$100,000"
+  categories:
+    - competition
+  format: "online"
+  platform: "crowdstrike"
+  tags:
+    - agent
+    - security
+    - red-teaming
+    - prompt-injection
+  note: "Three-act virtual red-teaming game where players use prompt injection to manipulate adversary-controlled AI agents; Act 3 carries $70K."
+
+- id: band-dark-factory-2026
+  title: "Dark Factory Hackathon"
+  full_name: "WeAreDevelopers x BAND present: Dark Factory Hackathon"
+  organizer: "WeAreDevelopers & BAND"
+  url: "https://lablab.ai/ai-hackathons/wearedevelopers-hackathon"
+  deadline: "2026-10-05 23:59"
+  timezone: "US/Pacific"
+  start_date: "2026-09-26"
+  end_date: "2026-10-05"
+  prize: "$6,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "lablab"
+  tags:
+    - agent
+    - multi-agent
+    - coding-agent
+  note: "Build a software factory in BAND Desktop: a band of coding agents that plans work, implements it and checks its own results."
+
+- id: pymc-data-science-agents-2026
+  title: "Multiplayer Data Science Agents"
+  full_name: "Build Multiplayer Data Science Agents - PyMC Labs Hackathon"
+  organizer: "PyMC Labs"
+  url: "https://daimon-hackathon.devpost.com/"
+  deadline: "2026-10-10 13:30"
+  timezone: "US/Eastern"
+  start_date: "2026-10-10"
+  end_date: "2026-10-10"
+  prize: "Non-cash prize"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "devpost"
+  tags:
+    - agent
+    - data-science
+    - LLM
+  note: "One-day NYC hackathon (#AIWeekNY) building data science agents with Daimon across analysis, data journalism and benchmark tracks."
+
+- id: box-aws-agentic-enterprise-2026
+  title: "Agentic Enterprise AI Hackathon"
+  full_name: "Agentic Enterprise AI Hackathon - Box + AWS"
+  organizer: "Box & AWS"
+  url: "https://agentic-ai-hackathon-box-aws.devpost.com/"
+  deadline: "2026-10-17 13:00"
+  timezone: "US/Pacific"
+  start_date: "2026-10-16"
+  end_date: "2026-10-17"
+  prize: "TBD"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "devpost"
+  tags:
+    - agent
+    - enterprise
+    - LLM
+  note: "Overnight in-person hackathon at Amazon Day 1 (Seattle) building enterprise agents over unstructured data with Box and AWS; US residents only."
+
+- id: amd-developer-act-iii-2026
+  title: "AMD Developer Hackathon ACT III"
+  full_name: "AMD Developer Hackathon: ACT III"
+  organizer: "AMD & lablab.ai"
+  url: "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii"
+  deadline: "2026-10-18 15:00"
+  timezone: "UTC"
+  start_date: "2026-10-12"
+  end_date: "2026-10-18"
+  prize: "$5,000+"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "lablab"
+  tags:
+    - agent
+    - LLM
+    - GPU
+  note: "Build AI agents and high-performance AI apps on AMD cloud GPUs, with on-site finals in Rome, Milan and Imperia."
+
+- id: techex-amsterdam-hackathon-2026
+  title: "TechEx Amsterdam Hackathon"
+  full_name: "TechEx Amsterdam Hackathon - AI & Big Data Expo Europe"
+  organizer: "TechEx Events & lablab.ai"
+  url: "https://lablab.ai/ai-hackathons/techex-amsterdam-hackathon"
+  deadline: "2026-10-19 19:00"
+  timezone: "UTC"
+  start_date: "2026-10-16"
+  end_date: "2026-10-20"
+  prize: "TBA"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "lablab"
+  tags:
+    - agent
+    - enterprise
+    - LLM
+  note: "Official AI & Big Data Expo Europe hackathon to build AI applications and agents, with an online build then on-site showcase at RAI Amsterdam."
+
+- id: amazon-developer-hackathon-2026
+  title: "Amazon Developer Hackathon"
+  full_name: "Build, Ship, Shape: Amazon Developer Hackathon"
+  organizer: "Amazon"
+  url: "https://amazonappdev2026.devpost.com/"
+  deadline: "2026-10-23 12:00"
+  timezone: "US/Pacific"
+  start_date: "2026-08-31"
+  end_date: "2026-10-23"
+  prize: "$190K (cash + AWS credits)"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - MCP
+    - Alexa
+  note: "Build across Fire TV, Alexa+, Bee and Ring; the Alexa+ track asks for a self-hosted MCP server or Agent Skill, plus an AWS Builder (Bedrock/AgentCore) mini-challenge."
+
+- id: aws-cds-agentic-partner-2026
+  title: "AWS CDS Agentic AI Partner Hackathon"
+  full_name: "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon"
+  organizer: "AWS"
+  url: "https://aws-cds-partner.devpost.com/"
+  deadline: "2026-10-28 13:00"
+  timezone: "US/Pacific"
+  start_date: "2026-09-14"
+  end_date: "2026-10-28"
+  prize: "$40,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - AgentCore
+    - conversational-AI
+  note: "AWS Partners build agentic conversational solutions on AWS Communication Developer Services powered by Amazon Bedrock AgentCore."
+
+- id: vultr-agent-rush-2026
+  title: "Vultr Agent Rush"
+  full_name: "Vultr: Agent Rush Hackathon"
+  organizer: "Vultr & lablab.ai"
+  url: "https://lablab.ai/ai-hackathons/vultr-hackathon"
+  deadline: "2026-11-08 22:00"
+  timezone: "UTC"
+  start_date: "2026-11-03"
+  end_date: "2026-11-08"
+  prize: "$9,000 + $5,000 credits"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "lablab"
+  tags:
+    - agent
+    - sandbox
+    - browser-agent
+  note: "Build web-based agents that write/run code or operate a real browser with every action sandboxed on Vultr; on-site finale in Salt Lake City."
+
+- id: devfest-muenster-agentic-2026
+  title: "DevFest Münster Agentic AI Hackathon"
+  full_name: "DevFest Münster 2026: Agentic AI Hackathon"
+  organizer: "GDG Münster"
+  url: "https://devfest-ai-hackathon.devpost.com/"
+  deadline: "2026-11-21 15:00"
+  timezone: "Europe/Berlin"
+  start_date: "2026-11-21"
+  end_date: "2026-11-21"
+  prize: "Non-cash (Google merch & certificates)"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "devpost"
+  tags:
+    - agent
+    - agentic-AI
+    - security
+  note: "One-day in-person sprint themed 'Build, Secure, Scale: Developers and Builders in the Agentic Era' with hard live demos only."
