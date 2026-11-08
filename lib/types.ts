@@ -18,14 +18,8 @@ export interface AgentEvent {
   estimated?: boolean;
 }
 
-export type Category =
-  | "hackathon"
-  | "competition"
-  | "benchmark"
-  | "accelerator"
-  | "conference"
-  | "workshop"
-  | "journal";
+/** Allowed values depend on the section; see lib/sections.ts. */
+export type Category = string;
 
 export interface CategoryOption {
   value: Category;

@@ -1,0 +1,335 @@
+# General AI / ML hackathons and competitions (not agent-specific; agent events go in events.yaml).
+# Same schema as events.yaml. Append new entries at the end of the file.
+
+- id: arc-prize-2026-paper-track
+  title: "ARC Prize 2026 Paper Track"
+  full_name: "ARC Prize 2026 — Paper Track"
+  organizer: "ARC Prize Foundation"
+  url: "https://www.kaggle.com/competitions/arc-prize-2026-paper-track"
+  deadline: "2026-11-09 23:59"
+  timezone: "UTC"
+  start_date: "2026-03-25"
+  end_date: "2026-11-09"
+  prize: "$75,000"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - reasoning
+    - ARC-AGI
+    - paper
+  note: "Write-ups of novel approaches to ARC-AGI; main ARC-AGI-2/3 tracks closed Nov 2."
+
+- id: iflytek-spark-x25-2026
+  title: "Spark-X2.5 On-Device Challenge"
+  full_name: "iFLYTEK Spark-X2.5 On-Device Model Challenge"
+  organizer: "iFLYTEK"
+  url: "https://challenge.xfyun.cn/topic/info?type=Spark-X25"
+  deadline: "2026-11-10 23:59"
+  timezone: "Asia/Shanghai"
+  end_date: "2026-11-10"
+  prize: "¥100,000"
+  categories:
+    - competition
+  format: "online"
+  platform: "xfyun"
+  tags:
+    - on-device
+    - LLM
+  note: "Build applications on iFLYTEK's on-device Spark-X2.5 model."
+
+- id: zindi-google-mumbai-2026
+  title: "Google Mumbai Data Challenge"
+  full_name: "Google Mumbai Data Challenge 2026: Air Quality Mapping & Forecasting"
+  organizer: "Google & Zindi"
+  url: "https://zindi.world/competitions/google-mumbai-data-challenge"
+  deadline: "2026-11-10 23:59"
+  timezone: "UTC"
+  end_date: "2026-11-10"
+  prize: "$6,000"
+  categories:
+    - competition
+  format: "online"
+  platform: "zindi"
+  tags:
+    - forecasting
+    - climate
+  note: "Map and forecast air quality across Mumbai."
+
+- id: epic-ai-megajam-2026
+  title: "Epic Games AI MegaJam"
+  full_name: "2026 Epic Games AI MegaJam"
+  organizer: "Epic Games"
+  url: "https://www.unrealengine.com/news/2026-epic-ai-megajam"
+  deadline: "2026-11-12 23:59"
+  timezone: "US/Eastern"
+  end_date: "2026-11-12"
+  prize: "$65,000"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - games
+    - generative-AI
+    - unreal
+  note: "Week-long AI game jam in Unreal Engine; in-person hub in San Francisco."
+
+- id: paypal-ai-hackathon-2026
+  title: "PayPal AI Hackathon"
+  full_name: "PayPal AI Hackathon"
+  organizer: "PayPal"
+  url: "https://paypalaihackathon.devpost.com/"
+  deadline: "2026-11-12 20:00"
+  timezone: "UTC"
+  end_date: "2026-11-12"
+  prize: "$67,500 + Render credits"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - payments
+    - agent
+    - fintech
+  note: "Build an app or agent on PayPal's sandbox with any AI tool."
+
+- id: emma-hackathon-2026
+  title: "emma Multi-Cloud GPU Hackathon"
+  full_name: "emma Hackathon 2026: Build on Multi-Cloud GPU Infra"
+  organizer: "emma"
+  url: "https://hackathon.emma.ms/"
+  deadline: "2026-12-01 23:59"
+  timezone: "UTC"
+  end_date: "2026-12-01"
+  prize: "$50,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - GPU
+    - infra
+    - LLM
+  note: "Build AI workloads across multi-cloud GPU infrastructure."
+
+- id: ai-for-medicine-2026
+  title: "AI for Medicine Student Hackathon"
+  full_name: "AI for Medicine: A Global Student Hackathon 2026"
+  organizer: "AI for Medicine"
+  url: "https://ai-for-medicine.devpost.com/"
+  deadline: "2026-12-04 23:59"
+  timezone: "UTC"
+  end_date: "2026-12-04"
+  prize: "TBD"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - healthcare
+    - students
+  note: "Global student hackathon on AI in medicine."
+
+- id: hackai-toronto-2026
+  title: "Hack AI × Stan Toronto"
+  full_name: "Hack AI × Stan Toronto 2026"
+  organizer: "Stan & Hack AI"
+  url: "https://hackai-toronto.devpost.com/"
+  deadline: "2026-12-04 23:59"
+  timezone: "US/Eastern"
+  end_date: "2026-12-04"
+  prize: "CAD 20,000 first prize"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "devpost"
+  tags:
+    - generative-AI
+    - creator-economy
+  note: "In-person AI hackathon in Toronto."
+
+- id: apart-threat-intel-2026
+  title: "Apart Threat Modelling Hackathon"
+  full_name: "Apart Research Threat Intelligence & Threat Modelling Hackathon 2026"
+  organizer: "Apart Research"
+  url: "https://apartresearch.com/sprints/threat-intelligence-threat-modelling-2026"
+  deadline: "2026-12-06 23:59"
+  timezone: "UTC"
+  end_date: "2026-12-06"
+  prize: "$5,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "apart"
+  tags:
+    - AI-safety
+    - security
+  note: "Weekend research sprint on AI threat intelligence and threat models."
+
+- id: enveda-casmi-2026
+  title: "Enveda CASMI 2026"
+  full_name: "Enveda CASMI 2026 — Molecule Identification from Mass Spectra"
+  organizer: "Enveda"
+  url: "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/"
+  deadline: "2026-12-08 23:59"
+  timezone: "UTC"
+  end_date: "2026-12-08"
+  prize: "$50,000"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - chemistry
+    - AI-for-science
+  note: "Identify molecules from mass spectra."
+
+- id: ai-hack-tokyo-3-2026
+  title: "AI HACK Tokyo 3rd Edition"
+  full_name: "AI HACK Tokyo 3rd Edition 2026"
+  organizer: "AI HACK Tokyo"
+  url: "https://aihackathon.jp/"
+  deadline: "2026-12-09 23:59"
+  timezone: "Asia/Tokyo"
+  end_date: "2026-12-09"
+  prize: "¥1,000,000 (annual pool)"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - generative-AI
+    - ideathon
+  note: "AI hackathon and ideathon series in Tokyo."
+
+- id: ieee-genai-for-good-cities-2026
+  title: "IEEE GenAI for Good: Cities"
+  full_name: "IEEE GenAI for Good Challenge: Cities Edition 2026 (with UNDP)"
+  organizer: "IEEE Humanitarian Technologies & UNDP"
+  url: "https://ieeeht.org/get-involved/funding-opportunities/genai-for-good/"
+  deadline: "2026-12-13 23:59"
+  timezone: "UTC"
+  end_date: "2026-12-13"
+  prize: "$40,000"
+  categories:
+    - competition
+  format: "online"
+  platform: "ieee"
+  tags:
+    - generative-AI
+    - social-good
+    - cities
+  note: "Generative AI projects for urban resilience."
+
+- id: ml-microscopy-hackathon-3
+  title: "ML for Microscopy Hackathon 3"
+  full_name: "Machine Learning for Microscopy Hackathon 3"
+  organizer: "Kalinin Group"
+  url: "https://kaliningroup.github.io/mic_hackathon_3/"
+  deadline: "2026-12-13 23:59"
+  timezone: "UTC"
+  end_date: "2026-12-13"
+  prize: "TBD"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - AI-for-science
+    - microscopy
+  note: "ML and agents for autonomous microscopy."
+
+- id: sg-embodied-ai-manufacturing-2026
+  title: "Singapore Embodied AI Challenge"
+  full_name: "Singapore Embodied AI Challenge: Manufacturing 2026"
+  organizer: "National Robotics Programme Singapore"
+  url: "https://nrp.gov.sg/SGEAIchallenge/"
+  deadline: "2026-12-31 23:59"
+  timezone: "Asia/Singapore"
+  end_date: "2026-12-31"
+  prize: "S$88,000"
+  categories:
+    - competition
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - embodied-AI
+    - robotics
+    - manufacturing
+  note: "Embodied AI for manufacturing tasks."
+
+- id: infineon-boss-battle-2026
+  title: "Infineon Boss Battle"
+  full_name: "Infineon Boss Battle in the AI Arena 2026"
+  organizer: "Infineon & Hackster"
+  url: "https://www.hackster.io/contests/infineon-boss-battle"
+  deadline: "2027-01-03 23:59"
+  timezone: "US/Pacific"
+  end_date: "2027-01-03"
+  prize: "$2,000 + hardware"
+  categories:
+    - competition
+  format: "online"
+  platform: "hackster"
+  tags:
+    - edge-AI
+    - hardware
+  note: "Edge AI builds on the PSOC Edge 84 board."
+
+- id: chroma-awards-s2
+  title: "Chroma Awards Season 2"
+  full_name: "Chroma Awards Season 2"
+  organizer: "Chroma Awards"
+  url: "https://chromaawards.com/"
+  deadline: "2027-01-07 23:59"
+  timezone: "US/Pacific"
+  end_date: "2027-01-07"
+  prize: "$450,000"
+  categories:
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - AI-video
+    - generative-AI
+  note: "AI film, music video and game competition."
+
+- id: mainloop-barcelona-build-2027
+  title: "The Barcelona Build"
+  full_name: "The Barcelona Build: Mainloop's One-Week Hackathon"
+  organizer: "Mainloop"
+  url: "https://mainloopai.com/en/events/barcelona-build/"
+  deadline: "2027-01-08 23:59"
+  timezone: "Europe/Madrid"
+  end_date: "2027-01-08"
+  prize: "€10,000"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - AI-coding
+  note: "One-week AI coding hackathon based in Barcelona."
+
+- id: name-that-llm-2027
+  title: "Name That LLM"
+  full_name: "Name That LLM: Identify the Model Behind the Text"
+  organizer: "Kaggle & Google"
+  url: "https://www.kaggle.com/competitions/name-that-llm"
+  deadline: "2027-01-13 23:59"
+  timezone: "UTC"
+  end_date: "2027-01-13"
+  prize: "$50,000"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - LLM
+    - attribution
+  note: "Identify which of 18 frontier LLMs wrote each passage. Entry deadline Jan 6."

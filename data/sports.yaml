@@ -207,8 +207,8 @@
   title: "KSPO Sports Tech Open Call"
   full_name: "국민체육진흥공단 스포츠테크 신기술 통합공모 (KSPO Sports Tech New Technology Call)"
   organizer: "Korea Sports Promotion Foundation (KSPO)"
-  url: "https://spobiz.kspo.or.kr/front/index.do"
-  deadline: "2026-12-31 18:00"
+  url: "https://spobiz.kspo.or.kr/front/sportsHistory/sportsBissMng/sportsBissNoticeList.do?topMenuSeq=1"
+  deadline: "2026-12-30 23:59"
   timezone: "Asia/Seoul"
   categories:
     - competition
@@ -217,7 +217,7 @@
   tags:
     - korea
     - sports-tech
-  note: "Existing SMEs only, and the patent must be granted (pending applications do not qualify)."
+  note: "Rolling call (Jun 10 – Dec 31 00:00 KST) under the KSPO SME tech market. Existing SMEs only, and the patent must be granted (pending applications do not qualify)."
 
 - id: embc-2027
   title: "IEEE EMBC 2027"
@@ -305,7 +305,7 @@
     - korea
     - startup
   estimated: true
-  note: "Best domestic fit for sports startups; pre-founder track available. 2026 call ran Mar 9–25."
+  note: "Two tracks: pre-early startup centres (pre-founders and companies under 3 years, avg ₩45M, 9-month incubation) and the accelerating programme (incorporated, under 7 years, avg ₩55M). 2026 call ran Mar 9–25."
 
 - id: iswc-notes-briefs-2027
   title: "ISWC 2027 Notes & Briefs"
@@ -362,3 +362,58 @@
     - wearable
     - health-tech
   note: "No entry fee; wearables category includes sports. Early entries reach the jury shortlist first; top 12 pitch at MEDICA, Düsseldorf."
+
+- id: kspo-overseas-certification-2026
+  title: "KSPO Overseas Certification Support"
+  full_name: "2026 스포츠용품 해외인증획득 지원사업 (Sports Goods Overseas Certification Support)"
+  organizer: "Korea Sports Promotion Foundation (KSPO)"
+  url: "https://spobiz.kspo.or.kr/front/sportsHistory/sportsBissMng/sportsBissNoticeList.do?topMenuSeq=1"
+  deadline: "2026-11-30 23:00"
+  timezone: "Asia/Seoul"
+  start_date: "2026-03-23"
+  end_date: "2026-11-30"
+  prize: "Domestic testing + overseas certification costs"
+  categories:
+    - accelerator
+  format: "online"
+  platform: "kspo"
+  tags:
+    - korea
+    - certification
+  note: "Covers testing and overseas certification for sports goods makers; check whether an IMU wearable qualifies before applying."
+
+- id: kspo-skl-coworking-2026
+  title: "Sports Korea Lab Free Co-working"
+  full_name: "스포츠코리아랩(SKL) 공유오피스 무료 개방 (Sports Korea Lab co-working)"
+  organizer: "Korea Sports Promotion Foundation (KSPO)"
+  url: "https://spobiz.kspo.or.kr/front/sportsHistory/sportsBissMng/sportsBissNoticeList.do?topMenuSeq=1"
+  deadline: "2026-12-30 23:59"
+  timezone: "Asia/Seoul"
+  start_date: "2026-04-01"
+  end_date: "2026-12-31"
+  prize: "Free office space"
+  categories:
+    - accelerator
+  format: "in-person"
+  platform: "kspo"
+  tags:
+    - korea
+    - workspace
+  note: "Free co-working at Sports Korea Lab, open for applications through year-end."
+
+- id: nfl-big-data-bowl-2027
+  title: "NFL Big Data Bowl 2027"
+  full_name: "NFL Big Data Bowl 2027"
+  organizer: "NFL Football Operations & Kaggle"
+  url: "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027"
+  deadline: "2027-01-06 23:59"
+  timezone: "UTC"
+  prize: "$100,000"
+  categories:
+    - competition
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - sports-analytics
+    - tracking-data
+  note: "Written analysis of NFL Combine player-tracking data; separate undergraduate track."

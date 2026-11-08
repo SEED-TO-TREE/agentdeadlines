@@ -1,0 +1,286 @@
+# AI conference paper deadlines (main tracks).
+# Same schema as events.yaml. categories = subfield: ml, cv, nlp, robotics, ai, data-mining, ir, speech.
+# deadline = full-paper deadline; put the abstract deadline in note. estimated: true = projected, no CFP yet.
+# Append new entries at the end of the file.
+
+- id: cvpr-2027
+  title: "CVPR 2027"
+  full_name: "IEEE/CVF Conference on Computer Vision and Pattern Recognition 2027"
+  organizer: "IEEE/CVF"
+  url: "https://cvpr.thecvf.com/Conferences/2027/Dates"
+  deadline: "2026-11-16 23:59"
+  timezone: "AoE"
+  start_date: "2027-06-20"
+  end_date: "2027-06-25"
+  categories:
+    - cv
+  format: "in-person"
+  platform: "openreview"
+  tags:
+    - vision
+    - pattern-recognition
+  note: "Paper registration Nov 10 AoE; supplementary Nov 23 AoE. No extensions."
+
+- id: rss-2027
+  title: "RSS 2027"
+  full_name: "Robotics: Science and Systems 2027"
+  organizer: "RSS Foundation"
+  url: "https://roboticsconference.org/information/cfp/"
+  deadline: "2026-12-04 23:59"
+  timezone: "AoE"
+  start_date: "2027-07-06"
+  end_date: "2027-07-11"
+  categories:
+    - robotics
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - robotics
+    - learning
+  note: "New two-stage process: 6-page extended abstract Dec 4, final paper ~Apr 16. Athens, Greece."
+
+- id: icme-2027
+  title: "ICME 2027"
+  full_name: "IEEE International Conference on Multimedia & Expo 2027"
+  organizer: "IEEE"
+  url: "https://2027.ieeeicme.org/"
+  deadline: "2026-12-30 23:59"
+  timezone: "AoE"
+  start_date: "2027-07-13"
+  end_date: "2027-07-17"
+  categories:
+    - cv
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - multimedia
+    - multimodal
+  note: "Image, video, audio and multimodal work. Xiamen, China."
+
+- id: acl-2027
+  title: "ACL 2027"
+  full_name: "65th Annual Meeting of the Association for Computational Linguistics"
+  organizer: "ACL"
+  url: "https://2027.aclweb.org/"
+  deadline: "2027-01-04 23:59"
+  timezone: "AoE"
+  start_date: "2027-08-17"
+  end_date: "2027-08-22"
+  categories:
+    - nlp
+  format: "in-person"
+  platform: "openreview"
+  tags:
+    - NLP
+    - LLM
+  note: "Submit via ACL Rolling Review (January 2027 cycle); commitment date TBA. Kyoto, Japan."
+
+- id: ijcai-2027
+  title: "IJCAI 2027"
+  full_name: "36th International Joint Conference on Artificial Intelligence"
+  organizer: "IJCAI"
+  url: "https://2027.ijcai.org/"
+  deadline: "2027-01-11 23:59"
+  timezone: "AoE"
+  start_date: "2027-08-07"
+  end_date: "2027-08-13"
+  categories:
+    - ai
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - AI
+    - agents
+  note: "Abstract Jan 4 AoE. Kyoto, Japan, with a satellite in Hengqin, China (Aug 15-17)."
+
+- id: sigir-2027
+  title: "SIGIR 2027"
+  full_name: "50th ACM SIGIR Conference on Research and Development in Information Retrieval"
+  organizer: "ACM SIGIR"
+  url: "https://sigir2027.org/"
+  deadline: "2027-01-21 23:59"
+  timezone: "AoE"
+  categories:
+    - ir
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - retrieval
+    - RAG
+  note: "Abstract Jan 14. San Jose, CA."
+
+- id: icml-2027
+  title: "ICML 2027"
+  full_name: "International Conference on Machine Learning 2027"
+  organizer: "IMLS"
+  url: "https://icml.cc/"
+  deadline: "2027-01-22 23:59"
+  timezone: "AoE"
+  start_date: "2027-07-31"
+  end_date: "2027-08-06"
+  categories:
+    - ml
+  format: "in-person"
+  platform: "openreview"
+  tags:
+    - ML
+  estimated: true
+  note: "Abstract ~Jan 16. CFP not yet published; dates projected from ICML 2026. Rio de Janeiro, Brazil."
+
+- id: colt-2027
+  title: "COLT 2027"
+  full_name: "Annual Conference on Learning Theory 2027"
+  organizer: "Association for Computational Learning"
+  url: "https://learningtheory.org/colt2027/"
+  deadline: "2027-01-29 23:59"
+  timezone: "AoE"
+  start_date: "2027-06-28"
+  end_date: "2027-07-02"
+  categories:
+    - ml
+  format: "in-person"
+  platform: "openreview"
+  tags:
+    - learning-theory
+  note: "Tokyo, Japan."
+
+- id: ijcnn-2027
+  title: "IJCNN 2027"
+  full_name: "International Joint Conference on Neural Networks 2027"
+  organizer: "IEEE CIS & INNS"
+  url: "https://ijcnn.org/2027"
+  deadline: "2027-01-31 23:59"
+  timezone: "AoE"
+  start_date: "2027-06-14"
+  end_date: "2027-06-18"
+  categories:
+    - ml
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - neural-networks
+  note: "Cape Town, South Africa."
+
+- id: kdd-2027-cycle2
+  title: "KDD 2027 (Cycle 2)"
+  full_name: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2027 — Research Track, Cycle 2"
+  organizer: "ACM SIGKDD"
+  url: "https://kdd2027.kdd.org/research-track-call-for-papers/"
+  deadline: "2027-02-08 23:59"
+  timezone: "AoE"
+  start_date: "2027-08-01"
+  end_date: "2027-08-05"
+  categories:
+    - data-mining
+  format: "in-person"
+  platform: "openreview"
+  tags:
+    - data-mining
+    - graphs
+  estimated: true
+  note: "CFP says February 2027 without an exact day; date projected from past cycles. San Jose, CA."
+
+- id: interspeech-2027
+  title: "Interspeech 2027"
+  full_name: "Interspeech 2027"
+  organizer: "ISCA"
+  url: "https://interspeech2027.org/"
+  deadline: "2027-02-09 23:59"
+  timezone: "AoE"
+  start_date: "2027-08-29"
+  end_date: "2027-09-02"
+  categories:
+    - speech
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - speech
+    - audio
+  note: "Paper update deadline Feb 16. São Paulo, Brazil."
+
+- id: uai-2027
+  title: "UAI 2027"
+  full_name: "Conference on Uncertainty in Artificial Intelligence 2027"
+  organizer: "AUAI"
+  url: "https://www.auai.org/"
+  deadline: "2027-02-12 23:59"
+  timezone: "AoE"
+  categories:
+    - ml
+  format: "in-person"
+  platform: "openreview"
+  tags:
+    - probabilistic-ML
+    - uncertainty
+  estimated: true
+  note: "Date from aggregators; confirm on the UAI site."
+
+- id: iros-2027
+  title: "IROS 2027"
+  full_name: "IEEE/RSJ International Conference on Intelligent Robots and Systems 2027"
+  organizer: "IEEE RAS & RSJ"
+  url: "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/iros"
+  deadline: "2027-03-01 23:59"
+  timezone: "US/Pacific"
+  start_date: "2027-09-26"
+  end_date: "2027-10-01"
+  categories:
+    - robotics
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - robotics
+  estimated: true
+  note: "Draft deadline per IEEE RAS; official site not live yet. Florence, Italy."
+
+- id: iccv-2027
+  title: "ICCV 2027"
+  full_name: "IEEE/CVF International Conference on Computer Vision 2027"
+  organizer: "IEEE/CVF"
+  url: "https://iccv.thecvf.com/Conferences/2027/Dates"
+  deadline: "2027-03-08 23:59"
+  timezone: "AoE"
+  start_date: "2027-10-03"
+  end_date: "2027-10-07"
+  categories:
+    - cv
+  format: "in-person"
+  platform: "openreview"
+  tags:
+    - vision
+  estimated: true
+  note: "Abstract ~Mar 1. Conference dates official; paper deadlines projected from ICCV 2025."
+
+- id: ecai-2027
+  title: "ECAI 2027"
+  full_name: "30th European Conference on Artificial Intelligence"
+  organizer: "EurAI"
+  url: "https://ecai2027.org/"
+  deadline: "2027-04-14 23:59"
+  timezone: "AoE"
+  start_date: "2027-10-02"
+  end_date: "2027-10-07"
+  categories:
+    - ai
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - AI
+  note: "Athens, Greece. Author notification Jul 15."
+
+- id: neurips-2027
+  title: "NeurIPS 2027"
+  full_name: "Conference on Neural Information Processing Systems 2027"
+  organizer: "NeurIPS Foundation"
+  url: "https://neurips.cc/"
+  deadline: "2027-05-21 23:59"
+  timezone: "AoE"
+  categories:
+    - ml
+  format: "in-person"
+  platform: "openreview"
+  tags:
+    - ML
+    - deep-learning
+  estimated: true
+  note: "Abstract ~May 14. CFP not out; projected from previous cycle."

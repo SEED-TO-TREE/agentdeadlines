@@ -1,13 +1,10 @@
 import { loadEvents, sortEvents } from "@/lib/parseEvents";
 import EventList from "@/components/EventList";
 import Footer from "@/components/Footer";
-import { CategoryOption, ParsedEvent } from "@/lib/types";
+import { ParsedEvent } from "@/lib/types";
+import { getSection } from "@/lib/sections";
 
-const categories: CategoryOption[] = [
-  { value: "hackathon", label: "Hackathon" },
-  { value: "competition", label: "Competition" },
-  { value: "benchmark", label: "Benchmark" },
-];
+const categories = getSection("agents").categories;
 
 function buildJsonLd(events: ParsedEvent[]) {
   const upcoming = events.filter((e) => e.status === "upcoming");

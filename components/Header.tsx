@@ -1,9 +1,6 @@
-export type Section = "agents" | "sports";
+import { SECTIONS, SectionId } from "@/lib/sections";
 
-const sections: { id: Section; label: string; href: string }[] = [
-  { id: "agents", label: "AI Agents", href: "/" },
-  { id: "sports", label: "Sports Tech", href: "/sports-tech" },
-];
+export type Section = SectionId;
 
 interface HeaderProps {
   section: Section;
@@ -22,8 +19,8 @@ export default function Header({ section, totalEvents, activeEvents, search, onS
             <span className="text-white">Agent</span>
             <span className="text-[#00ff88]">Deadlines</span>
           </a>
-          <nav className="flex items-center gap-1 mt-2" aria-label="Sections">
-            {sections.map((s) => (
+          <nav className="flex flex-wrap items-center gap-1 mt-2" aria-label="Sections">
+            {SECTIONS.map((s) => (
               <a
                 key={s.id}
                 href={s.href}
