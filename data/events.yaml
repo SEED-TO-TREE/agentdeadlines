@@ -2809,3 +2809,266 @@
     - startup
     - grant
   note: "Submit an agent prototype, pitch deck and demo video in January 2027 (exact day not yet published; registration may close in December). Grand final in Dubai, early May 2027."
+
+- id: builder-agent-native-2026
+  title: "Agent-Native Hackathon"
+  full_name: "Builder.io Agent-Native Hackathon"
+  organizer: "Builder.io"
+  url: "https://www.builder.io/hackathon"
+  deadline: "2026-11-09 23:59"
+  timezone: "US/Pacific"
+  end_date: "2026-11-09"
+  prize: "$10,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - coding-agent
+  note: "Build agent-native apps and AI coding workflows."
+
+- id: celo-agents-open-rails-2026
+  title: "Agents on Open Rails"
+  full_name: "Agents on Open Rails Hackathon"
+  organizer: "Celo"
+  url: "https://www.loops.house/agents-on-open-rails"
+  deadline: "2026-11-09 23:59"
+  timezone: "UTC"
+  end_date: "2026-11-09"
+  prize: "$5,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - web3
+    - payments
+  note: "Build autonomous agents that transact on Celo's open payment rails."
+
+- id: walrus-total-recall-2026
+  title: "Total Recall"
+  full_name: "Total Recall: Walrus x Tatum Memory Hackathon"
+  organizer: "Walrus & Tatum"
+  url: "https://tatum.io/hackathon/total-recall"
+  deadline: "2026-11-10 23:59"
+  timezone: "UTC"
+  end_date: "2026-11-10"
+  prize: "$4,500"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - memory
+    - web3
+  note: "Persistent memory layers for agents on decentralized storage."
+
+- id: nous-hermes-agent-plugins-2026
+  title: "Hermes Agent Plugin Hackathon"
+  full_name: "Nous Research Hermes Agent Plugin Hackathon 2026"
+  organizer: "Nous Research"
+  url: "https://x.com/NousResearch/status/2118094256438936062"
+  deadline: "2026-11-11 23:59"
+  timezone: "UTC"
+  end_date: "2026-11-11"
+  prize: "$20,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - plugins
+    - open-model
+  note: "Build plugins and tools for the Hermes agent."
+
+- id: matrixnext-enterprise-agent-2026
+  title: "MatrixNext Enterprise Agent Hackathon"
+  full_name: "MatrixNext 2026 Enterprise Agent Hackathon"
+  organizer: "MatrixOrigin"
+  url: "https://matrixorigin.cn/matrixnext"
+  deadline: "2026-11-11 23:59"
+  timezone: "Asia/Shanghai"
+  end_date: "2026-11-11"
+  prize: "¥23,000"
+  categories:
+    - hackathon
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - enterprise
+    - data
+  note: "Enterprise agents over business data; finale in Shanghai."
+
+- id: alipay-agent-emergence-2026
+  title: "Alipay Agent Emergence Award"
+  full_name: "Alipay Agent Emergence Award 2026 — Round 1"
+  organizer: "Ant Group"
+  url: "https://emerge.alipay.com/"
+  deadline: "2026-12-06 23:59"
+  timezone: "Asia/Shanghai"
+  end_date: "2026-12-06"
+  prize: "¥1,000,000"
+  categories:
+    - competition
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - payments
+    - startup
+  note: "Agent startups and products built on Alipay's agent payment stack; Round 1 deadline."
+
+- id: google-agents-for-impact-2026
+  title: "Agents for Impact Hackathon"
+  full_name: "Google Cloud Agents for Impact Hackathon 2026"
+  organizer: "Google Cloud"
+  url: "https://cloud.google.com/resources/agents-for-impact-2026"
+  deadline: "2026-12-08 23:59"
+  timezone: "US/Pacific"
+  end_date: "2026-12-08"
+  prize: "TBD"
+  categories:
+    - hackathon
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - agent
+    - nonprofit
+    - gemini
+  note: "Build agents for nonprofit partners; in-person in Sunnyvale and New York."
+
+- id: concordium-trusted-agents-2026
+  title: "Concordium Trusted Agents Hackathon"
+  full_name: "Concordium Trusted Agents Hackathon 2026 with Encode Club"
+  organizer: "Concordium & Encode Club"
+  url: "https://www.concordium.com/article/concordium-trusted-agents-hackathon-encode-club"
+  deadline: "2026-12-09 23:59"
+  timezone: "UTC"
+  end_date: "2026-12-09"
+  prize: "TBD"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - identity
+    - web3
+  note: "Agents with verifiable on-chain identity."
+
+- id: ibm-ai-builders-na-2026
+  title: "IBM AI Builders Challenge NA"
+  full_name: "IBM SkillsBuild AI Builders Challenge North America 2026"
+  organizer: "IBM SkillsBuild"
+  url: "https://aibuilderschallenge-na.bemyapp.com/"
+  deadline: "2026-12-10 23:59"
+  timezone: "US/Eastern"
+  end_date: "2026-12-10"
+  prize: "$15,000"
+  categories:
+    - competition
+  format: "online"
+  platform: "bemyapp"
+  tags:
+    - agent
+    - IBM-Bob
+  note: "Build AI agents with IBM tools; open to North American participants."
+
+- id: microsoft-agent-a-thon-2026
+  title: "Microsoft Agent-a-Thon"
+  full_name: "Microsoft Agent-a-Thon 2026"
+  organizer: "Microsoft"
+  url: "https://www.microsoft.com/en-us/events/local-events/microsoft-agent-a-thon"
+  deadline: "2026-12-10 23:59"
+  timezone: "US/Pacific"
+  end_date: "2026-12-10"
+  prize: "TBD"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "microsoft"
+  tags:
+    - agent
+    - copilot
+    - azure
+  note: "Online agent-building event on Microsoft's agent stack."
+
+- id: aws-agentic-msp-2026
+  title: "AWS MSP AI Hackathon"
+  full_name: "AWS MSP AI Hackathon 2026 — Agentic AI for Managed Service Providers"
+  organizer: "AWS"
+  url: "https://aws-agentic-msp.devpost.com/"
+  deadline: "2026-12-11 23:59"
+  timezone: "US/Pacific"
+  end_date: "2026-12-11"
+  prize: "$64,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - AgentCore
+    - MSP
+  note: "Agentic AI solutions for managed service providers on AWS."
+
+- id: hackerrank-orchestrate-dec-2026
+  title: "HackerRank Orchestrate"
+  full_name: "HackerRank Orchestrate Holiday Hackathon December 2026"
+  organizer: "HackerRank"
+  url: "https://www.hackerrank.com/hackerrank-orchestrate-december26"
+  deadline: "2026-12-12 23:59"
+  timezone: "UTC"
+  end_date: "2026-12-12"
+  prize: "$2,400"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "hackerrank"
+  tags:
+    - agent
+    - multi-agent
+  note: "Multi-agent orchestration build challenge."
+
+- id: hetic-ai-agents-founders-2026
+  title: "AI Agents for Founders Challenge"
+  full_name: "AI Agents for Founders Challenge — HETIC 2026"
+  organizer: "HETIC"
+  url: "https://ai-agents-founders-hetic-26.devpost.com/"
+  deadline: "2026-12-18 23:59"
+  timezone: "Europe/Paris"
+  end_date: "2026-12-18"
+  prize: "€997"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - students
+    - open-model
+  note: "Higher-ed students build founder-assistant agents on free or open-weight models."
+
+- id: codegeist-2026
+  title: "Codegeist 2026"
+  full_name: "Codegeist 2026: Atlassian's Forge Hackathon"
+  organizer: "Atlassian"
+  url: "https://codegeist2026.devpost.com/"
+  deadline: "2026-12-23 23:59"
+  timezone: "US/Pacific"
+  end_date: "2026-12-23"
+  prize: "$120,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - rovo
+    - MCP
+  note: "Build Rovo agents and MCP-powered apps on Atlassian Forge."

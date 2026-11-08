@@ -13,6 +13,14 @@ const categoryColors: Record<string, string> = {
   conference: "bg-cyan-500/15 text-cyan-400 border-cyan-500/30",
   workshop: "bg-teal-500/15 text-teal-400 border-teal-500/30",
   journal: "bg-indigo-500/15 text-indigo-400 border-indigo-500/30",
+  ml: "bg-blue-500/15 text-blue-400 border-blue-500/30",
+  cv: "bg-purple-500/15 text-purple-400 border-purple-500/30",
+  nlp: "bg-amber-500/15 text-amber-400 border-amber-500/30",
+  robotics: "bg-rose-500/15 text-rose-400 border-rose-500/30",
+  ai: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
+  "data-mining": "bg-cyan-500/15 text-cyan-400 border-cyan-500/30",
+  ir: "bg-teal-500/15 text-teal-400 border-teal-500/30",
+  speech: "bg-pink-500/15 text-pink-400 border-pink-500/30",
 };
 
 const formatLabels: Record<string, string> = {

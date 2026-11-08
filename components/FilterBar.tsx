@@ -45,8 +45,8 @@ export default function FilterBar({
   onStatusChange,
 }: FilterBarProps) {
   return (
-    <div className="flex flex-col sm:flex-row gap-3 overflow-x-auto pb-2">
-      <div className="flex items-center gap-2">
+    <div className="flex flex-wrap gap-x-3 gap-y-2 pb-2">
+      <div className="flex flex-wrap items-center gap-2">
         <span className="text-[10px] uppercase tracking-wider text-white/30 mr-1">Category</span>
         <Pill active={categoryFilter === "all"} onClick={() => onCategoryChange("all")}>All</Pill>
         {categories.map((c) => (
@@ -56,7 +56,7 @@ export default function FilterBar({
         ))}
       </div>
 
-      <div className="sm:border-l sm:border-white/10 sm:pl-3 flex items-center gap-2">
+      <div className="sm:border-l sm:border-white/10 sm:pl-3 flex flex-wrap items-center gap-2">
         <span className="text-[10px] uppercase tracking-wider text-white/30 mr-1">Format</span>
         <Pill active={formatFilter === "all"} onClick={() => onFormatChange("all")}>All</Pill>
         <Pill active={formatFilter === "online"} onClick={() => onFormatChange("online")}>Online</Pill>
@@ -64,7 +64,7 @@ export default function FilterBar({
         <Pill active={formatFilter === "hybrid"} onClick={() => onFormatChange("hybrid")}>Hybrid</Pill>
       </div>
 
-      <div className="sm:border-l sm:border-white/10 sm:pl-3 flex items-center gap-2">
+      <div className="sm:border-l sm:border-white/10 sm:pl-3 flex flex-wrap items-center gap-2">
         <span className="text-[10px] uppercase tracking-wider text-white/30 mr-1">Status</span>
         <Pill active={statusFilter === "upcoming"} onClick={() => onStatusChange("upcoming")}>Upcoming</Pill>
         <Pill active={statusFilter === "past"} onClick={() => onStatusChange("past")}>Past</Pill>

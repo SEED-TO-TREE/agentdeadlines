@@ -40,13 +40,18 @@ Add your event at the end of the file following this schema:
 
 **Ignore the section comments.** `data/events.yaml` has `UPCOMING EVENTS` / `RECENTLY ENDED` / `PAST EVENTS` banners left over from the initial import. They are cosmetic and no longer track anything — the site sorts by `deadline` at build time and splits upcoming vs. past on its own. Always append to the very end of the file, whatever banner happens to be above it.
 
-### Sports Tech events
+### Which file?
 
-Sports tech and wearable deadlines (startup competitions, accelerators, sports-science conferences, workshops, journals) go in `data/sports.yaml` and show up at `/sports-tech`. Same schema, with these differences:
+The site has one tab per data file (configured in `lib/sections.ts`):
 
-- `categories`: one or more of `competition`, `accelerator`, `conference`, `workshop`, `journal`
-- `prize`, `start_date`, `end_date` are optional
-- add `estimated: true` when the deadline is projected from previous years; the card shows an "Est." badge
+| Tab | File | `categories` |
+|-----|------|--------------|
+| AI Agents (`/`) | `data/events.yaml` | `hackathon`, `competition`, `benchmark` |
+| AI Competitions (`/ai-competitions`) | `data/ai.yaml` — general AI/ML events that are not agent-specific | `hackathon`, `competition`, `benchmark` |
+| AI Conferences (`/conferences`) | `data/conferences.yaml` — `deadline` is the full-paper deadline; put the abstract deadline in `note` | `ml`, `cv`, `nlp`, `robotics`, `ai`, `data-mining`, `ir`, `speech` |
+| Sports Tech (`/sports-tech`) | `data/sports.yaml` | `competition`, `accelerator`, `conference`, `workshop`, `journal` |
+
+All files share the schema below. `prize`, `start_date` and `end_date` are optional — leave them out rather than guessing. Add `estimated: true` when the deadline is projected from previous years; the card shows an "Est." badge.
 
 ### 3. Validate
 
