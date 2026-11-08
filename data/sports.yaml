@@ -1,0 +1,364 @@
+# Sports Tech deadlines: competitions, accelerators, conferences, workshops and journals
+# for wearable / sports-science / sports-AI builders and researchers.
+#
+# Same schema as events.yaml, with these differences:
+#   categories: competition, accelerator, conference, workshop, journal
+#   prize, start_date, end_date: optional (academic venues often have no prize or fixed dates)
+#   estimated: true  -> deadline is projected from previous years; confirm once the official CFP is out
+#
+# Append new entries at the end of the file. The site sorts by deadline at build time.
+
+- id: mit-ssac-2027-papers
+  title: "MIT Sloan SSAC 2027 Research Papers"
+  full_name: "MIT Sloan Sports Analytics Conference 2027 Research Paper Competition"
+  organizer: "MIT Sloan"
+  url: "https://www.sloansportsconference.com/research-paper-competition"
+  deadline: "2026-10-01 23:59"
+  timezone: "US/Eastern"
+  start_date: "2027-03-05"
+  end_date: "2027-03-06"
+  prize: "Finalist presentation at SSAC"
+  categories:
+    - competition
+    - conference
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - sports-analytics
+    - research
+  note: "500-word abstract; invited full papers due Dec 4. Data and code must be published in a public repo."
+
+- id: gvalley-startup-2026
+  title: "G-Valley Startup Competition"
+  full_name: "2026 G밸리 창업경진대회 (10th G-Valley Startup Competition)"
+  organizer: "Korea Industrial Complex Corp. (KICOX)"
+  url: "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179309"
+  deadline: "2026-10-08 17:00"
+  timezone: "Asia/Seoul"
+  prize: "₩32M total + industrial-complex tenancy priority"
+  categories:
+    - competition
+  format: "in-person"
+  platform: "k-startup"
+  tags:
+    - korea
+    - startup
+  note: "Open to pre-founders and companies under 7 years old; any field."
+
+- id: nba-launchpad-2027
+  title: "NBA Launchpad 2027"
+  full_name: "NBA Launchpad Cohort 6"
+  organizer: "NBA"
+  url: "https://www.launchpad.nba.com/"
+  deadline: "2026-10-16 23:59"
+  timezone: "US/Eastern"
+  prize: "6-month R&D pilot with the NBA"
+  categories:
+    - accelerator
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - basketball
+    - player-health
+  note: "Player Health & Wellbeing track fits jump/landing knee kinematics; new Asia sports-experience track this year. Demo day at Summer League 2027."
+
+- id: gyeonggi-sports-industry-2026
+  title: "Gyeonggi Sports Industry Contest"
+  full_name: "2026 경기스포츠산업 공모전 (Gyeonggi Sports Industry Innovation Contest)"
+  organizer: "Gyeonggi Province & Gyeonggi Sports Council"
+  url: "https://ggsports.spectory.net/innovation"
+  deadline: "2026-10-30 18:00"
+  timezone: "Asia/Seoul"
+  start_date: "2026-09-14"
+  end_date: "2026-10-30"
+  prize: "₩30M total (7 teams)"
+  categories:
+    - competition
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - korea
+    - wearable
+    - injury-prevention
+  note: "Performance-tech track explicitly lists wearables, smart training and injury prevention; patent holders get bonus points."
+
+- id: whx-xcelerate-2027
+  title: "WHX Tech Xcelerate"
+  full_name: "WHX Tech Xcelerate Startup Pitch Competition"
+  organizer: "World Health Expo"
+  url: "https://www.worldhealthexpo.com/events/healthcare/tech/whats-on/features/xcelerate-your-startup-pitch-competition/"
+  deadline: "2026-11-04 23:59"
+  timezone: "Asia/Dubai"
+  start_date: "2027-01-26"
+  end_date: "2027-01-28"
+  prize: "$30,000 equity-free"
+  categories:
+    - competition
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - health-tech
+    - pitch
+  note: "Requires an incorporated company and a working product; finalists pay for booth space in Dubai."
+
+- id: acsm-2027
+  title: "ACSM Annual Meeting 2027"
+  full_name: "74th ACSM Annual Meeting — Call for Scientific Abstracts & Clinical Cases"
+  organizer: "American College of Sports Medicine"
+  url: "https://www.acsm.org/annual-meeting/abstracts"
+  deadline: "2026-11-09 12:00"
+  timezone: "US/Pacific"
+  start_date: "2027-06-01"
+  end_date: "2027-06-04"
+  categories:
+    - conference
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - sports-medicine
+    - abstract
+  note: "Largest sports-medicine meeting, Indianapolis. Abstract track suits running-gait and form-feedback results."
+
+- id: perfail-percom-2027
+  title: "PerFail @ PerCom 2027"
+  full_name: "PerFail 2027: Workshop on Negative Results in Pervasive Computing (IEEE PerCom)"
+  organizer: "IEEE PerCom"
+  url: "https://perfail-workshop.github.io/2027/"
+  deadline: "2026-11-17 23:59"
+  timezone: "AoE"
+  categories:
+    - workshop
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - wearable
+    - negative-results
+  note: "IEEE 6+1 pages, non-anonymous. Good home for 'what did not work' wearable results; in-person presentation and full registration required (Goa, India)."
+
+- id: techstars-ai-health-baltimore-2027
+  title: "Techstars AI Health Baltimore"
+  full_name: "Techstars AI Health Baltimore Accelerator"
+  organizer: "Techstars"
+  url: "https://www.techstars.com/accelerators"
+  deadline: "2026-11-18 23:59"
+  timezone: "US/Eastern"
+  prize: "$220,000 investment"
+  categories:
+    - accelerator
+  format: "in-person"
+  platform: "techstars"
+  tags:
+    - health-tech
+    - AI
+  note: "Solo and pre-revenue founders accepted; clinical focus, so frame wearables around injury prevention and rehab."
+
+- id: making-sense-aaai-2027
+  title: "Making Sense @ AAAI-27"
+  full_name: "Making Sense Workshop @ AAAI-27 — sensing, wearables and on-body AI"
+  organizer: "AAAI"
+  url: "https://making-sense-workshop.github.io/"
+  deadline: "2026-11-20 23:59"
+  timezone: "AoE"
+  categories:
+    - workshop
+  format: "in-person"
+  platform: "openreview"
+  tags:
+    - wearable
+    - on-device
+    - ML
+  note: "AAAI format, 4-page short / 7-page long, double-blind. Has Demo/Dataset tracks; trust in on-body AI is a listed topic. Montréal, Feb 2027."
+
+- id: astad-aaai-2027
+  title: "ASTAD @ AAAI-27"
+  full_name: "ASTAD: Workshop on Anomaly and Out-of-Distribution Detection @ AAAI-27"
+  organizer: "AAAI"
+  url: "https://ismart.ece.mcgill.ca/astad4/"
+  deadline: "2026-11-20 23:59"
+  timezone: "AoE"
+  categories:
+    - workshop
+  format: "in-person"
+  platform: "openreview"
+  tags:
+    - OOD-detection
+    - ML
+  note: "AAAI format, 7 + 2 pages, double-blind. Fits confidence gating that detects unseen motions as OOD."
+
+- id: hello-tomorrow-2027
+  title: "Hello Tomorrow Global Challenge"
+  full_name: "Hello Tomorrow Global Challenge 2027"
+  organizer: "Hello Tomorrow"
+  url: "https://hello-tomorrow.org/"
+  deadline: "2026-11-30 23:59"
+  timezone: "CET"
+  prize: "Deep-tech prizes + investment"
+  categories:
+    - competition
+    - accelerator
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - deep-tech
+    - digital-health
+  note: "Digital Health track; teams of 2+ only. Finalists pitch at the Amsterdam summit, June 2027."
+
+- id: kspo-sports-tech-2026
+  title: "KSPO Sports Tech Open Call"
+  full_name: "국민체육진흥공단 스포츠테크 신기술 통합공모 (KSPO Sports Tech New Technology Call)"
+  organizer: "Korea Sports Promotion Foundation (KSPO)"
+  url: "https://spobiz.kspo.or.kr/front/index.do"
+  deadline: "2026-12-31 18:00"
+  timezone: "Asia/Seoul"
+  categories:
+    - competition
+  format: "in-person"
+  platform: "kspo"
+  tags:
+    - korea
+    - sports-tech
+  note: "Existing SMEs only, and the patent must be granted (pending applications do not qualify)."
+
+- id: embc-2027
+  title: "IEEE EMBC 2027"
+  full_name: "49th Annual International Conference of the IEEE Engineering in Medicine & Biology Society"
+  organizer: "IEEE EMBS"
+  url: "https://embc.embs.org/2027/"
+  deadline: "2027-01-24 23:59"
+  timezone: "AoE"
+  start_date: "2027-07-11"
+  end_date: "2027-07-15"
+  categories:
+    - conference
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - biomedical
+    - wearable
+  estimated: true
+  note: "4-page full papers (IEEE Xplore); poster-paper track due ~Feb 21. Singapore. Date from unofficial listings until the official CFP is up."
+
+- id: imwut-feb-2027
+  title: "IMWUT (Feb 2027 cycle)"
+  full_name: "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies"
+  organizer: "ACM"
+  url: "https://dl.acm.org/journal/imwut"
+  deadline: "2027-02-01 23:59"
+  timezone: "AoE"
+  categories:
+    - journal
+  format: "online"
+  platform: "independent"
+  tags:
+    - wearable
+    - ubicomp
+  note: "Three cycles a year (Feb 1, May 1, Nov 1). Accepted papers present at UbiComp/ISWC 2027 in Seoul. Expects multi-subject evaluation."
+
+- id: ecss-2027
+  title: "ECSS Manchester 2027"
+  full_name: "32nd Annual Congress of the European College of Sport Science"
+  organizer: "European College of Sport Science"
+  url: "https://sport-science.org/ecss-manchester-2027/submission/abstract-submission/"
+  deadline: "2027-02-15 23:59"
+  timezone: "CET"
+  start_date: "2027-07-20"
+  end_date: "2027-07-23"
+  categories:
+    - conference
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - sport-science
+    - abstract
+  note: "Abstract submission opens Jan 1; one abstract per person, no deadline extension. Notifications Apr 1."
+
+- id: cvsports-cvpr-2027
+  title: "CVsports @ CVPR 2027"
+  full_name: "CVsports: Workshop on Computer Vision in Sports @ CVPR 2027"
+  organizer: "CVPR"
+  url: "https://vap.aau.dk/cvsports/"
+  deadline: "2027-03-05 23:59"
+  timezone: "AoE"
+  categories:
+    - workshop
+  format: "in-person"
+  platform: "openreview"
+  tags:
+    - computer-vision
+    - pose-estimation
+  estimated: true
+  note: "Sports CV incl. biomechanics and vision+wearable fusion. 2026 deadline was Mar 5 AoE with no extension; non-institutional OpenReview accounts take up to 2 weeks."
+
+- id: kspo-startup-accelerating-2027
+  title: "KSPO Sports Startup Accelerating"
+  full_name: "국민체육진흥공단 스포츠산업 창업지원·액셀러레이팅 2027"
+  organizer: "Korea Sports Promotion Foundation (KSPO)"
+  url: "https://spobiz.kspo.or.kr/front/index.do"
+  deadline: "2027-03-25 18:00"
+  timezone: "Asia/Seoul"
+  prize: "Avg. ₩45M–55M per team"
+  categories:
+    - accelerator
+  format: "in-person"
+  platform: "kspo"
+  tags:
+    - korea
+    - startup
+  estimated: true
+  note: "Best domestic fit for sports startups; pre-founder track available. 2026 call ran Mar 9–25."
+
+- id: iswc-notes-briefs-2027
+  title: "ISWC 2027 Notes & Briefs"
+  full_name: "ISWC 2027 Notes & Briefs (UbiComp/ISWC 2027)"
+  organizer: "ACM SIGCHI"
+  url: "https://sigchi.org/events/ubicomp-2027/"
+  deadline: "2027-05-15 23:59"
+  timezone: "AoE"
+  start_date: "2027-10-03"
+  end_date: "2027-10-07"
+  categories:
+    - conference
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - wearable
+    - hardware
+  estimated: true
+  note: "Short-paper track of the core wearable-computing venue; Briefs suit hardware/system work. Seoul Dragon City. HASCA workshop and WEAR challenge run alongside."
+
+- id: k-sports-booster-2027
+  title: "K-SPORTS BOOSTER 2027"
+  full_name: "KSPO 스포츠산업 창업 아이디어 공모전 (K-Startup sports league qualifier)"
+  organizer: "Korea Sports Promotion Foundation (KSPO)"
+  url: "https://spobiz.kspo.or.kr/front/index.do"
+  deadline: "2027-05-25 18:00"
+  timezone: "Asia/Seoul"
+  prize: "₩18M total + K-Startup final nomination"
+  categories:
+    - competition
+  format: "in-person"
+  platform: "kspo"
+  tags:
+    - korea
+    - startup
+  estimated: true
+  note: "Qualifier league for 올해의 K-스타트업; companies up to 3 years old. 2026 call ran Apr 27 – May 25."
+
+- id: healthcare-innovation-world-cup-2027
+  title: "Healthcare Innovation World Cup"
+  full_name: "Healthcare Innovation World Cup 2027 (Wearable Technologies / MEDICA)"
+  organizer: "Wearable Technologies AG"
+  url: "https://www.innovationworldcup.com/healthcare/"
+  deadline: "2027-09-09 23:59"
+  timezone: "CET"
+  start_date: "2027-11-15"
+  end_date: "2027-11-15"
+  prize: "Pitch at MEDICA + dev kits & test-lab access"
+  categories:
+    - competition
+  format: "in-person"
+  platform: "independent"
+  tags:
+    - wearable
+    - health-tech
+  note: "No entry fee; wearables category includes sports. Early entries reach the jury shortlist first; top 12 pitch at MEDICA, Düsseldorf."

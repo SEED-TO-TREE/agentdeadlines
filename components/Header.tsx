@@ -1,19 +1,43 @@
+export type Section = "agents" | "sports";
+
+const sections: { id: Section; label: string; href: string }[] = [
+  { id: "agents", label: "AI Agents", href: "/" },
+  { id: "sports", label: "Sports Tech", href: "/sports-tech" },
+];
+
 interface HeaderProps {
+  section: Section;
   totalEvents: number;
   activeEvents: number;
   search: string;
   onSearchChange: (value: string) => void;
 }
 
-export default function Header({ totalEvents, activeEvents, search, onSearchChange }: HeaderProps) {
+export default function Header({ section, totalEvents, activeEvents, search, onSearchChange }: HeaderProps) {
   return (
     <header className="border-b border-white/10 bg-[#0a0a0f]/80 backdrop-blur-sm sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-4 py-5 flex items-center justify-between">
         <div>
-          <p className="text-2xl md:text-3xl font-bold tracking-tight" aria-hidden="true">
+          <a href="/" className="text-2xl md:text-3xl font-bold tracking-tight" aria-hidden="true">
             <span className="text-white">Agent</span>
             <span className="text-[#00ff88]">Deadlines</span>
-          </p>
+          </a>
+          <nav className="flex items-center gap-1 mt-2" aria-label="Sections">
+            {sections.map((s) => (
+              <a
+                key={s.id}
+                href={s.href}
+                aria-current={section === s.id ? "page" : undefined}
+                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
+                  section === s.id
+                    ? "bg-white/10 text-white"
+                    : "text-white/40 hover:text-white/70"
+                }`}
+              >
+                {s.label}
+              </a>
+            ))}
+          </nav>
         </div>
         <div className="flex items-center gap-4">
           <input

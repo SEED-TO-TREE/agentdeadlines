@@ -4,8 +4,8 @@ import yaml from "js-yaml";
 import { AgentEvent, ParsedEvent } from "./types";
 import { calcDaysLeft } from "./daysLeft";
 
-export function loadEvents(): ParsedEvent[] {
-  const filePath = path.join(process.cwd(), "data", "events.yaml");
+export function loadEvents(file = "events.yaml"): ParsedEvent[] {
+  const filePath = path.join(process.cwd(), "data", file);
   const fileContents = fs.readFileSync(filePath, "utf8");
   const raw = yaml.load(fileContents) as AgentEvent[];
 
