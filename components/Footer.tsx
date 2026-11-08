@@ -24,7 +24,7 @@ export default function Footer() {
             </a>
           </span>
         </div>
-        <span>Data updated: 2026-03-01</span>
+        <span>Data updated: 2026-11-08</span>
       </div>
     </footer>
   );

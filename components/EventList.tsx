@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
-import { ParsedEvent, Category, Format, Status } from "@/lib/types";
+import { ParsedEvent, Category, CategoryOption, Format, Status } from "@/lib/types";
+import { Section } from "./Header";
 import Header from "./Header";
 import FilterBar from "./FilterBar";
 import EventCard from "./EventCard";
@@ -16,6 +17,8 @@ function recalcEvents(events: ParsedEvent[]): ParsedEvent[] {
 
 interface EventListProps {
   events: ParsedEvent[];
+  categories: CategoryOption[];
+  section: Section;
 }
 
 interface GroupProps {
@@ -43,7 +46,7 @@ function EventGroup({ title, color, dotColor, events }: GroupProps) {
   );
 }
 
-export default function EventList({ events: serverEvents }: EventListProps) {
+export default function EventList({ events: serverEvents, categories, section }: EventListProps) {
   const [events, setEvents] = useState(() => recalcEvents(serverEvents));
   const [categoryFilter, setCategoryFilter] = useState<Category | "all">("all");
   const [formatFilter, setFormatFilter] = useState<Format | "all">("all");
@@ -90,6 +93,7 @@ export default function EventList({ events: serverEvents }: EventListProps) {
   return (
     <>
       <Header
+        section={section}
         totalEvents={totalEvents}
         activeEvents={activeEvents}
         search={search}
@@ -97,6 +101,7 @@ export default function EventList({ events: serverEvents }: EventListProps) {
       />
       <main className="max-w-5xl mx-auto px-4 py-8">
         <FilterBar
+          categories={categories}
           categoryFilter={categoryFilter}
           formatFilter={formatFilter}
           statusFilter={statusFilter}

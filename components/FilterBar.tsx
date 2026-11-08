@@ -1,8 +1,9 @@
 "use client";
 
-import { Category, Format, Status } from "@/lib/types";
+import { Category, CategoryOption, Format, Status } from "@/lib/types";
 
 interface FilterBarProps {
+  categories: CategoryOption[];
   categoryFilter: Category | "all";
   formatFilter: Format | "all";
   statusFilter: Status;
@@ -35,6 +36,7 @@ function Pill({
 }
 
 export default function FilterBar({
+  categories,
   categoryFilter,
   formatFilter,
   statusFilter,
@@ -47,9 +49,11 @@ export default function FilterBar({
       <div className="flex items-center gap-2">
         <span className="text-[10px] uppercase tracking-wider text-white/30 mr-1">Category</span>
         <Pill active={categoryFilter === "all"} onClick={() => onCategoryChange("all")}>All</Pill>
-        <Pill active={categoryFilter === "hackathon"} onClick={() => onCategoryChange("hackathon")}>Hackathon</Pill>
-        <Pill active={categoryFilter === "competition"} onClick={() => onCategoryChange("competition")}>Competition</Pill>
-        <Pill active={categoryFilter === "benchmark"} onClick={() => onCategoryChange("benchmark")}>Benchmark</Pill>
+        {categories.map((c) => (
+          <Pill key={c.value} active={categoryFilter === c.value} onClick={() => onCategoryChange(c.value)}>
+            {c.label}
+          </Pill>
+        ))}
       </div>
 
       <div className="sm:border-l sm:border-white/10 sm:pl-3 flex items-center gap-2">

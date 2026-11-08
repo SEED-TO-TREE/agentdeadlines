@@ -2668,3 +2668,144 @@
     - agentic-AI
     - security
   note: "One-day in-person sprint themed 'Build, Secure, Scale: Developers and Builders in the Agentic Era' with hard live demos only."
+
+- id: open-agent-hackathon-2026
+  title: "Open Agent Hackathon"
+  full_name: "Open Agent Hackathon 2026"
+  organizer: "GenAI Works"
+  url: "https://hackathon.genai.works/event/open-agent-hackathon-2026"
+  deadline: "2026-10-27 23:59"
+  timezone: "UTC"
+  start_date: "2026-10-22"
+  end_date: "2026-10-27"
+  prize: "Up to $20,000 (cash + in-kind)"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "independent"
+  tags:
+    - agent
+    - open-source
+  note: "Free, five-day online build sprint for open agent projects."
+
+- id: nebius-nvidia-global-ai-2026
+  title: "Nebius x NVIDIA Global AI Hackathon"
+  full_name: "Nebius x NVIDIA Global AI Hackathon: Build the next frontier of AI on open infrastructure"
+  organizer: "Nebius & NVIDIA"
+  url: "https://nebiusglobalaihackathon.devpost.com/"
+  deadline: "2026-10-30 13:00"
+  timezone: "US/Eastern"
+  start_date: "2026-08-26"
+  end_date: "2026-10-30"
+  prize: "$50,000+ + Jetson Orin Nano kits"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - nemotron
+    - physical-AI
+  note: "Tracks include Coding & Agentic Engineering and Apps & Agents; projects must run on Nebius and use an NVIDIA open model."
+
+- id: amd-ai-league-2026
+  title: "AMD AI League"
+  full_name: "AMD AI League (Lablab x AMD AI Academy Challenge)"
+  organizer: "AMD, NativelyAI & lablab.ai"
+  url: "https://lablab.ai/ai-hackathons/amd-lablab-ai-academy-challenge"
+  deadline: "2026-12-01 19:00"
+  timezone: "UTC"
+  start_date: "2026-09-01"
+  end_date: "2026-12-01"
+  prize: "$10,000+"
+  categories:
+    - competition
+  format: "online"
+  platform: "lablab"
+  tags:
+    - agent
+    - web-agent
+    - AMD
+  note: "Individual-only, three-month league of build matches on AMD GPUs; one match asks for a web-navigation agent. Final match ends Nov 14."
+
+- id: gemma-4-developer-agent-2026
+  title: "Gemma 4 Developer Agent Competition"
+  full_name: "Google - The Gemma 4 Developer Agent Competition"
+  organizer: "Google & Kaggle"
+  url: "https://www.kaggle.com/competitions/gemma-4-developer-agent"
+  deadline: "2026-12-02 23:59"
+  timezone: "UTC"
+  start_date: "2026-09-23"
+  end_date: "2026-12-02"
+  prize: "$100,000"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - agent
+    - coding-agent
+    - open-model
+  note: "Post-train Gemma 4 into a coding agent that runs on everyday hardware. Entry/team-merger deadline Nov 25; separate paper track due Nov 12."
+
+- id: kiroween-2026
+  title: "Kiroween 2026"
+  full_name: "Kiroween 2026: Kiro's Halloween Hackathon"
+  organizer: "Kiro (AWS)"
+  url: "https://kiroween.devpost.com/"
+  deadline: "2026-12-04 14:00"
+  timezone: "US/Pacific"
+  start_date: "2026-10-30"
+  end_date: "2026-12-04"
+  prize: "$100,000"
+  categories:
+    - hackathon
+  format: "online"
+  platform: "devpost"
+  tags:
+    - agent
+    - agentic-IDE
+    - kiro
+  note: "Halloween-themed hackathon building with Kiro, AWS's agentic IDE. Kiro credit requests due Dec 1."
+
+- id: google-quantum-circuit-compilation-2026
+  title: "Verifiable Quantum Circuit Compilation"
+  full_name: "Google Quantum AI - Verifiable Quantum Circuit Compilation"
+  organizer: "Google Quantum AI & Kaggle"
+  url: "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation"
+  deadline: "2027-01-20 23:59"
+  timezone: "UTC"
+  start_date: "2026-10-22"
+  end_date: "2027-01-20"
+  prize: "$150,000"
+  categories:
+    - competition
+    - benchmark
+  format: "online"
+  platform: "kaggle"
+  tags:
+    - agent
+    - quantum
+    - verification
+  note: "Use AI agents to compress fault-tolerant quantum circuits that must pass a fast classical verifier; three benchmark tasks."
+
+- id: create-ai-agents-championship-2027
+  title: "Create AI Agents Championship"
+  full_name: "Create AI Agents Championship (Dubai Chamber of Digital Economy)"
+  organizer: "Dubai Chamber of Digital Economy"
+  url: "https://www.dubaichamberdigital.com/en/create-ai-agents"
+  deadline: "2027-01-31 23:59"
+  timezone: "Asia/Dubai"
+  start_date: "2026-10-07"
+  end_date: "2027-05-07"
+  prize: "AED 2.5M+ (4 × $150,000 grants + AED 1M Agent of the Year)"
+  categories:
+    - competition
+  format: "hybrid"
+  platform: "independent"
+  tags:
+    - agent
+    - startup
+    - grant
+  note: "Submit an agent prototype, pitch deck and demo video in January 2027 (exact day not yet published; registration may close in December). Grand final in Dubai, early May 2027."

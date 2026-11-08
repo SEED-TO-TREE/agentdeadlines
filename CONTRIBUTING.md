@@ -40,6 +40,14 @@ Add your event at the end of the file following this schema:
 
 **Ignore the section comments.** `data/events.yaml` has `UPCOMING EVENTS` / `RECENTLY ENDED` / `PAST EVENTS` banners left over from the initial import. They are cosmetic and no longer track anything — the site sorts by `deadline` at build time and splits upcoming vs. past on its own. Always append to the very end of the file, whatever banner happens to be above it.
 
+### Sports Tech events
+
+Sports tech and wearable deadlines (startup competitions, accelerators, sports-science conferences, workshops, journals) go in `data/sports.yaml` and show up at `/sports-tech`. Same schema, with these differences:
+
+- `categories`: one or more of `competition`, `accelerator`, `conference`, `workshop`, `journal`
+- `prize`, `start_date`, `end_date` are optional
+- add `estimated: true` when the deadline is projected from previous years; the card shows an "Est." badge
+
 ### 3. Validate
 
 ```bash

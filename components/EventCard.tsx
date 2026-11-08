@@ -9,6 +9,10 @@ const categoryColors: Record<string, string> = {
   hackathon: "bg-blue-500/15 text-blue-400 border-blue-500/30",
   competition: "bg-purple-500/15 text-purple-400 border-purple-500/30",
   benchmark: "bg-amber-500/15 text-amber-400 border-amber-500/30",
+  accelerator: "bg-pink-500/15 text-pink-400 border-pink-500/30",
+  conference: "bg-cyan-500/15 text-cyan-400 border-cyan-500/30",
+  workshop: "bg-teal-500/15 text-teal-400 border-teal-500/30",
+  journal: "bg-indigo-500/15 text-indigo-400 border-indigo-500/30",
 };
 
 const formatLabels: Record<string, string> = {
@@ -54,6 +58,14 @@ export default function EventCard({ event }: EventCardProps) {
 
           <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mt-3 text-xs text-white/50">
             <span>{formatDate(event.deadline.split(" ")[0])}</span>
+            {event.estimated && (
+              <span
+                className="px-1.5 py-0.5 rounded text-[10px] font-medium uppercase tracking-wide bg-yellow-500/10 text-yellow-400/80 border border-yellow-500/20"
+                title="Projected from previous years — confirm on the official page"
+              >
+                Est.
+              </span>
+            )}
             <span className="text-white/20">·</span>
             <span>{formatLabels[event.format]}</span>
             {event.prize && (
